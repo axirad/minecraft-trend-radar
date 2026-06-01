@@ -17,9 +17,11 @@
      interest 0-100 Google Trends search interest (objective; est. until wired)
      subs     subscriber count in millions (number) or null if unknown
      about    ~3-sentence blurb shown in the click-through detail panel
-     link     OPTIONAL exact URL (e.g. the creator's YouTube channel). If
-              omitted, the panel auto-links: creators -> YouTube search,
-              everything else -> Google. Add real channel URLs when known.
+     ip       "mojang" = official Mojang game content. Shown in a SEPARATE
+              awareness-only group and EXCLUDED from the merch "Hot Now" list
+              and from movers. Red Lava Toys cannot make merch of Mojang IP;
+              we track it only so we can talk to customers about it.
+     link     OPTIONAL exact URL (e.g. the creator's YouTube channel).
    ============================================================================= */
 
 window.TREND_DATA = {
@@ -57,7 +59,7 @@ window.TREND_DATA = {
     { name: "Stampy", type: "Creator", subs: null, buzz: [4], interest: [38], rising: false,
       about: "Stampy (Stampy Cat) is the original kid-safe Minecraft creator, voiced as a cheerful cartoon cat. His long-running 'Lovely World' series is wholesome, narrative and genuinely funny. A trusted classic for the youngest viewers." },
 
-    // ---- CHARACTERS & MOBS (cute/iconic = direct merch fuel) ----
+    // ---- FAN / ANIMATION CHARACTERS (merch-eligible — NOT Mojang's mobs) ----
     // Animated character duos — extremely high recognition w/ 6-10 y/o; CONFIRMED top sellers at Red Lava Toys shows.
     { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [9], interest: [88], rising: true,
       about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — funny, action-packed challenge and 'good vs bad' stories pulling 1M+ views per video. They're instantly recognized by the 6–10 crowd and have spawned a whole genre of copycats. Confirmed huge sellers at Red Lava Toys shows — a top merch priority." },
@@ -65,10 +67,6 @@ window.TREND_DATA = {
       about: "Nico and Cash are a paired-character Minecraft animation duo in the same skit/challenge style as JJ & Mikey, part of the broader Maizen-style universe. Recognition with younger kids is extremely high. Confirmed strong demand at Red Lava Toys shows." },
     { name: "Chip & Milo", type: "Character/Mob", subs: null, buzz: [8], interest: [78], rising: true,
       about: "Milo and Chip are another popular animated-Minecraft character duo in the JJ-&-Mikey vein of challenge and story skits. They're very well known to the 6–10 audience. Confirmed big at Red Lava Toys shows." },
-    { name: "Baby mobs (Tiny Takeover)", type: "Character/Mob", subs: null, buzz: [9], interest: [85], rising: true,
-      about: "The 2026 'Tiny Takeover' drop redesigned every baby farm animal — puppies, kittens, piglets, calves, chicks, lambs, ocelots and bunnies — for maximum cuteness. Mojang billed it as their 'cutest drop ever,' and it's dominating cute-content and shorts. The instantly recognizable, adorable designs are a strong merch signal." },
-    { name: "Sulfur cube", type: "Character/Mob", subs: null, buzz: [6], interest: [50], rising: true,
-      about: "The sulfur cube is a newly revealed Minecraft mob that can absorb blocks — a mechanic unlike anything else in the game. Its novelty is driving reaction and explainer videos. Still early, but climbing." },
 
     // ---- FORMATS / TOPICS (what kind of videos they're glued to) ----
     { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7], interest: [62], rising: false,
@@ -76,14 +74,21 @@ window.TREND_DATA = {
     { name: "Brainrot skits", type: "Format", subs: null, buzz: [6], interest: [58], rising: true,
       about: "'Brainrot' skits are chaotic, sensory-overload short videos that use Minecraft skins to act out absurd stories. They're fast, loud and meme-driven — controversial with parents, irresistible to kids. The format powers a lot of current Shorts traffic." },
     { name: "Roleplay servers", type: "Format", subs: null, buzz: [5], interest: [45], rising: true,
-      about: "Minecraft roleplay (RP) servers are fictional worlds with their own economies, governments and ongoing storylines where players act out characters. They're growing fast as a social, narrative way to play. Popular with kids who love the 'pretend' and community side." }
+      about: "Minecraft roleplay (RP) servers are fictional worlds with their own economies, governments and ongoing storylines where players act out characters. They're growing fast as a social, narrative way to play. Popular with kids who love the 'pretend' and community side." },
+
+    // ---- MOJANG IP — official game content (CUSTOMER AWARENESS ONLY, not merch) ----
+    { name: "Baby mobs (Tiny Takeover)", type: "Character/Mob", ip: "mojang", subs: null, buzz: [9], interest: [85], rising: true,
+      about: "The 2026 'Tiny Takeover' drop redesigned every baby farm animal — puppies, kittens, piglets, calves, chicks, lambs, ocelots and bunnies — for maximum cuteness, billed as Mojang's 'cutest drop ever.' It's dominating cute-content and shorts right now. Official Mojang content: great to know about for customer chats, but NOT something Red Lava Toys can make merch of." },
+    { name: "Sulfur cube", type: "Character/Mob", ip: "mojang", subs: null, buzz: [6], interest: [50], rising: true,
+      about: "The sulfur cube is a newly revealed Minecraft mob that can absorb blocks — a mechanic unlike anything else in the game, driving lots of reaction/explainer videos. Official Mojang content: worth knowing for customer conversations, but not merch-eligible for Red Lava Toys." }
   ],
 
+  // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "Baby mobs (Tiny Takeover)", "Maizen"],
+    up:   ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "Maizen", "Aphmau"],
     down: [],
-    new:  ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "Baby mobs (Tiny Takeover)", "Sulfur cube"]
+    new:  ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "CaseOh"]
   },
 
-  headline: "Animated character duos — JJ & Mikey, Nico & Cash, Chip & Milo — are massive with 6–10s and CONFIRMED top sellers at Red Lava Toys shows; prime merch right now. The 'Tiny Takeover' baby-mob drop is the other hot signal. Aphmau & Maizen lead the creators."
+  headline: "Animated character duos — JJ & Mikey, Nico & Cash, Chip & Milo — are massive with 6–10s and CONFIRMED top sellers at Red Lava Toys shows: the prime merch opportunity right now. Aphmau & Maizen lead the creators. (Mojang game content is tracked in its own section below for customer awareness — not for merch.)"
 };

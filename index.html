@@ -55,6 +55,7 @@
   .chip{font-size:10px; letter-spacing:.5px; text-transform:uppercase; padding:2px 7px; border-radius:20px;
     background:#1f2b50; color:var(--mut); border:1px solid var(--line); white-space:nowrap}
   .chip.cr{color:#9fb4ff} .chip.mob{color:#ff9ed1} .chip.fmt{color:#ffd27a}
+  .chip.ip{color:#ffbf66; background:#2a1d0c; border-color:#5a431f}
   .rise{color:var(--accent); font-size:12px; font-weight:700}
   .bar-track{height:8px; background:#0c1428; border-radius:6px; margin-top:8px; overflow:hidden}
   .bar-fill{height:100%; border-radius:6px}
@@ -76,6 +77,8 @@
     background:linear-gradient(90deg,#14233a,#15546b,#1f9d57,#c9d12b,#f59e0b,#ef2b2b)}
   .hm-group{margin-bottom:8px}
   .hm-grouphdr{font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--mut); margin:16px 0 6px}
+  .hm-grouphdr.mojang{color:#ffbf66}
+  .hm-row.ipmojang{opacity:.72}
   .hm-row{display:grid; grid-template-columns:200px 1fr 200px; gap:12px; align-items:center;
     padding:5px 0; border-bottom:1px solid #1a2440}
   .hm-name{font-size:13.5px; display:flex; align-items:center; gap:7px; min-width:0}
@@ -227,7 +230,7 @@
   document.getElementById("headline").innerHTML = "<b>📡 Read:</b> " + (D.headline||"");
 
   // ---- Hot Now (top by latest buzz) ----
-  const hot = [...D.entities].sort((a,b)=>latest(b)-latest(a)).slice(0,8);
+  const hot = D.entities.filter(e=>!e.ip).sort((a,b)=>latest(b)-latest(a)).slice(0,8);
   document.getElementById("hotnow").innerHTML = hot.map((e,i)=>{
     const b=latest(e), [cc,cl]=typeChip(e.type);
     return `<div class="hot-row">
@@ -252,36 +255,41 @@
   // ---- week header (aligns over the cells) ----
   document.getElementById("wkhead").innerHTML = D.weeks.map(w=>`<div class="wk">${w}</div>`).join("");
 
-  // ---- Heatmap grouped by type ----
-  const groups=[["Creator","Creators"],["Character/Mob","Characters & Mobs"],["Format","Formats & Topics"]];
-  let html="";
-  groups.forEach(([key,label])=>{
-    const rows=D.entities.filter(e=>e.type===key).sort((a,b)=>latest(b)-latest(a));
-    if(!rows.length) return;
-    html+=`<div class="hm-grouphdr">${label}</div>`;
-    rows.forEach(e=>{
-      const cells=D.weeks.map((w,i)=>{
-        const v=e.buzz[i];
-        const tip=`${e.name} · ${w} · buzz ${v==null?'—':v} · interest ${e.interest[i]==null?'—':e.interest[i]}`;
-        return `<div class="cell" style="background:${buzzColor(v)}" title="${tip}">${v==null?'':v}</div>`;
-      }).join("");
-      html+=`<div class="hm-row">
-        <div class="hm-name">${e.rising?'<span class="rise">▲</span>':''}<a class="lnk nm" href="#" data-key="${esc(e.name)}" title="Click for details">${e.name}</a></div>
+  // ---- Heatmap ----
+  function rowHtml(e){
+    const cells=D.weeks.map((w,i)=>{
+      const v=e.buzz[i];
+      const tip=`${e.name} · ${w} · buzz ${v==null?'—':v} · interest ${e.interest[i]==null?'—':e.interest[i]}`;
+      return `<div class="cell" style="background:${buzzColor(v)}" title="${tip}">${v==null?'':v}</div>`;
+    }).join("");
+    const ipchip = e.ip==='mojang' ? ' <span class="chip ip" title="Official Mojang game content — not merch-eligible">Mojang IP</span>' : '';
+    return `<div class="hm-row${e.ip?' ipmojang':''}">
+        <div class="hm-name">${e.rising?'<span class="rise">▲</span>':''}<a class="lnk nm" href="#" data-key="${esc(e.name)}" title="Click for details">${e.name}</a>${ipchip}</div>
         <div class="hm-cells">${cells}</div>
         <div class="hm-stats">
           <span class="subpill">${e.subs?e.subs+'M subs':'subs —'}</span>
           <span class="ibar" title="search interest ${latestInt(e)}/100"><div style="width:${latestInt(e)}%"></div></span>
         </div>
       </div>`;
-    });
+  }
+  const groups=[["Creator","Creators"],["Character/Mob","Fan & animation characters"],["Format","Formats & Topics"]];
+  let html="";
+  groups.forEach(([key,label])=>{
+    const rows=D.entities.filter(e=>e.type===key && !e.ip).sort((a,b)=>latest(b)-latest(a));
+    if(!rows.length) return;
+    html+=`<div class="hm-grouphdr">${label}</div>` + rows.map(rowHtml).join("");
   });
+  const mojang=D.entities.filter(e=>e.ip==='mojang').sort((a,b)=>latest(b)-latest(a));
+  if(mojang.length){
+    html+=`<div class="hm-grouphdr mojang">🧱 Mojang IP · official game content — customer awareness only, NOT for merch</div>` + mojang.map(rowHtml).join("");
+  }
   document.getElementById("heatmap").innerHTML=html;
 
   document.getElementById("foot").innerHTML =
     `<b>How to read this:</b> <b>Buzz (0–10)</b> is an editorial "how much are kids talking about this" score from a daily web scan. ` +
     `<b>Search interest (0–100)</b> is Google-Trends-style search demand. <b>Subs</b> = channel size (millions). ` +
     `The heat map fills in as weeks accumulate — trend direction (who's heating up / cooling off) is the point, not any single week. ` +
-    `<br>Built for Red Lava Toys to spot which Minecraft characters & creators to turn into merch before they peak.`;
+    `<br>Built for Red Lava Toys to spot which Minecraft creators & characters to turn into merch before they peak. The "Mojang IP" section is official game content shown for customer-conversation awareness only — we can't make merch of it.`;
 
   // open detail panel on a name click; close on X / backdrop / Esc
   document.addEventListener("click", ev => {
