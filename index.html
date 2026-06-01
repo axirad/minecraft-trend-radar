@@ -82,10 +82,31 @@
     padding:5px 0; border-bottom:1px solid #1a2440}
   .hm-name{font-size:13.5px; display:flex; align-items:center; gap:7px; min-width:0}
   .hm-name .nm{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
-  a.lnk{color:inherit; text-decoration:none; border-bottom:1px dotted #ffffff3a; transition:.15s}
+  a.lnk{color:inherit; text-decoration:none; border-bottom:1px dotted #ffffff3a; cursor:pointer; transition:.15s}
   a.lnk:hover{color:var(--accent); border-bottom-color:var(--accent)}
-  a.lnk::after{content:"↗"; font-size:.72em; color:var(--mut); margin-left:3px; vertical-align:super}
+  a.lnk::after{content:"ⓘ"; font-size:.7em; color:var(--mut); margin-left:4px; vertical-align:super}
   a.lnk:hover::after{color:var(--accent)}
+  /* detail panel */
+  .modal-bg{position:fixed; inset:0; background:#04060cd0; backdrop-filter:blur(5px); display:none;
+    align-items:center; justify-content:center; padding:20px; z-index:50}
+  .modal-bg.open{display:flex}
+  .modal{background:linear-gradient(160deg,#17244e,#111a34); border:1px solid var(--line); border-radius:18px;
+    max-width:470px; width:100%; padding:24px; box-shadow:0 30px 80px #000a; position:relative}
+  .modal .x{position:absolute; top:8px; right:14px; cursor:pointer; color:var(--mut); font-size:26px;
+    line-height:1; background:none; border:none}
+  .modal .x:hover{color:var(--txt)}
+  .modal h2{margin:0 6px 6px 0; font-size:21px}
+  .modal .mtype{display:flex; gap:8px; align-items:center; margin-bottom:14px}
+  .modal .about{font-size:14px; line-height:1.65; color:#d6def6; margin:0 0 18px}
+  .mstats{display:flex; gap:10px; margin-bottom:18px}
+  .mstat{flex:1; background:#0f1830; border:1px solid var(--line); border-radius:10px; padding:10px 6px; text-align:center}
+  .mstat .v{font-size:18px; font-weight:800} .mstat .l{font-size:9.5px; letter-spacing:1px; text-transform:uppercase; color:var(--mut); margin-top:3px}
+  .mbtns{display:flex; gap:9px}
+  .mbtn{flex:1; text-align:center; padding:10px 6px; border-radius:10px; text-decoration:none; font-weight:600; font-size:12.5px; border:1px solid transparent}
+  .mbtn.yt{background:#ff0033; color:#fff}
+  .mbtn.g{background:#1f2b50; color:var(--txt); border-color:var(--line)}
+  .mbtn.c{background:#d97757; color:#fff}
+  .mbtn:hover{filter:brightness(1.12)}
   .hm-cells{display:flex; gap:5px; overflow-x:auto; padding:2px 0}
   .cell{width:34px; height:34px; border-radius:7px; display:grid; place-items:center;
     font-size:12px; font-weight:700; color:#fff; flex:0 0 auto; border:1px solid #ffffff14;
@@ -135,6 +156,8 @@
   <footer id="foot"></footer>
 </div>
 
+<div class="modal-bg" id="modalbg"><div class="modal" id="modal"></div></div>
+
 <script src="trends_data.js"></script>
 <script>
 (function(){
@@ -168,6 +191,36 @@
   }
   const esc = s => String(s).replace(/"/g,'&quot;');
 
+  // ---- detail panel (About + links) ----
+  const byName = {}; D.entities.forEach(e=>byName[e.name]=e);
+  const ytLink = e => (e.link && /youtube/.test(e.link)) ? e.link
+    : "https://www.youtube.com/results?search_query=" + encodeURIComponent(e.name + " minecraft");
+  const describePrompt = e =>
+      e.type==="Creator"        ? "Tell me about the Minecraft YouTuber " + e.name + ": who they are, what their content is like, and why kids love them."
+    : e.type==="Character/Mob"  ? "Tell me about " + e.name + " in Minecraft: what it is and why it's popular right now."
+    :                             "Tell me about the Minecraft " + e.name + " video trend and why kids are into it.";
+  const googleLink = e => "https://www.google.com/search?q=" + encodeURIComponent(describePrompt(e)); // surfaces AI Overview
+  const claudeLink = e => "https://claude.ai/new?q=" + encodeURIComponent(describePrompt(e));
+  function openDetail(e){
+    const [cc,cl]=typeChip(e.type), b=latest(e);
+    document.getElementById("modal").innerHTML = `
+      <button class="x" data-close="1" aria-label="Close">×</button>
+      <h2>${e.name}</h2>
+      <div class="mtype"><span class="chip ${cc}">${cl}</span>${e.rising?'<span class="rise">▲ rising</span>':''}</div>
+      <p class="about">${e.about||'—'}</p>
+      <div class="mstats">
+        <div class="mstat"><div class="v mono" style="color:${buzzColor(b)}">${b.toFixed(1)}</div><div class="l">Buzz</div></div>
+        <div class="mstat"><div class="v">${latestInt(e)}</div><div class="l">Interest</div></div>
+        <div class="mstat"><div class="v">${e.subs?e.subs+'M':'—'}</div><div class="l">Subs</div></div>
+      </div>
+      <div class="mbtns">
+        <a class="mbtn yt" href="${ytLink(e)}" target="_blank" rel="noopener">▶ YouTube</a>
+        <a class="mbtn g" href="${googleLink(e)}" target="_blank" rel="noopener">🔎 Google</a>
+        <a class="mbtn c" href="${claudeLink(e)}" target="_blank" rel="noopener">✦ Ask Claude</a>
+      </div>`;
+    document.getElementById("modalbg").classList.add("open");
+  }
+
   document.getElementById("updated").textContent = D.updated;
   document.getElementById("wkcount").textContent = D.weeks.length + (D.weeks.length===1?" week tracked":" weeks tracked");
   document.getElementById("headline").innerHTML = "<b>📡 Read:</b> " + (D.headline||"");
@@ -179,7 +232,7 @@
     return `<div class="hot-row">
       <div class="rank ${i<3?'top':''}">${i+1}</div>
       <div class="hot-main">
-        <div class="hot-name"><a class="lnk" href="${linkFor(e)}" target="_blank" rel="noopener">${e.name}</a> <span class="chip ${cc}">${cl}</span> ${e.rising?'<span class="rise">▲ rising</span>':''}</div>
+        <div class="hot-name"><a class="lnk" href="#" data-key="${esc(e.name)}">${e.name}</a> <span class="chip ${cc}">${cl}</span> ${e.rising?'<span class="rise">▲ rising</span>':''}</div>
         <div class="bar-track"><div class="bar-fill" style="width:${b*10}%;background:${buzzColor(b)}"></div></div>
       </div>
       <div class="hot-stats">
@@ -212,7 +265,7 @@
         return `<div class="cell" style="background:${buzzColor(v)}" title="${tip}">${v==null?'':v}</div>`;
       }).join("");
       html+=`<div class="hm-row">
-        <div class="hm-name">${e.rising?'<span class="rise">▲</span>':''}<a class="lnk nm" href="${linkFor(e)}" target="_blank" rel="noopener" title="${esc(e.note||e.name)}">${e.name}</a></div>
+        <div class="hm-name">${e.rising?'<span class="rise">▲</span>':''}<a class="lnk nm" href="#" data-key="${esc(e.name)}" title="Click for details">${e.name}</a></div>
         <div class="hm-cells">${cells}</div>
         <div class="hm-stats">
           <span class="subpill">${e.subs?e.subs+'M subs':'subs —'}</span>
@@ -228,6 +281,17 @@
     `<b>Search interest (0–100)</b> is Google-Trends-style search demand. <b>Subs</b> = channel size (millions). ` +
     `The heat map fills in as weeks accumulate — trend direction (who's heating up / cooling off) is the point, not any single week. ` +
     `<br>Built for FunSun to spot which Minecraft characters & creators to turn into merch before they peak.`;
+
+  // open detail panel on a name click; close on X / backdrop / Esc
+  document.addEventListener("click", ev => {
+    const a = ev.target.closest("a.lnk[data-key]");
+    if(a){ ev.preventDefault(); const e = byName[a.getAttribute("data-key")]; if(e) openDetail(e); return; }
+    const bg = document.getElementById("modalbg");
+    if(ev.target === bg || ev.target.closest("[data-close]")) bg.classList.remove("open");
+  });
+  document.addEventListener("keydown", ev => {
+    if(ev.key === "Escape") document.getElementById("modalbg").classList.remove("open");
+  });
 })();
 </script>
 </body>
