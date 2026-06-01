@@ -101,9 +101,10 @@
   .mstats{display:flex; gap:10px; margin-bottom:18px}
   .mstat{flex:1; background:#0f1830; border:1px solid var(--line); border-radius:10px; padding:10px 6px; text-align:center}
   .mstat .v{font-size:18px; font-weight:800} .mstat .l{font-size:9.5px; letter-spacing:1px; text-transform:uppercase; color:var(--mut); margin-top:3px}
-  .mbtns{display:flex; gap:9px}
-  .mbtn{flex:1; text-align:center; padding:10px 6px; border-radius:10px; text-decoration:none; font-weight:600; font-size:12.5px; border:1px solid transparent}
+  .mbtns{display:flex; flex-wrap:wrap; gap:9px}
+  .mbtn{flex:1 1 96px; text-align:center; padding:10px 6px; border-radius:10px; text-decoration:none; font-weight:600; font-size:12.5px; border:1px solid transparent}
   .mbtn.yt{background:#ff0033; color:#fff}
+  .mbtn.img{background:#2bb673; color:#fff}
   .mbtn.g{background:#1f2b50; color:var(--txt); border-color:var(--line)}
   .mbtn.c{background:#d97757; color:#fff}
   .mbtn:hover{filter:brightness(1.12)}
@@ -201,6 +202,7 @@
     :                             "Tell me about the Minecraft " + e.name + " video trend and why kids are into it.";
   const googleLink = e => "https://www.google.com/search?q=" + encodeURIComponent(describePrompt(e)); // surfaces AI Overview
   const claudeLink = e => "https://claude.ai/new?q=" + encodeURIComponent(describePrompt(e));
+  const imagesLink = e => "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(e.name + " minecraft skins");
   function openDetail(e){
     const [cc,cl]=typeChip(e.type), b=latest(e);
     document.getElementById("modal").innerHTML = `
@@ -215,8 +217,9 @@
       </div>
       <div class="mbtns">
         <a class="mbtn yt" href="${ytLink(e)}" target="_blank" rel="noopener">▶ YouTube</a>
+        <a class="mbtn img" href="${imagesLink(e)}" target="_blank" rel="noopener">🖼 Skins</a>
         <a class="mbtn g" href="${googleLink(e)}" target="_blank" rel="noopener">🔎 Google</a>
-        <a class="mbtn c" href="${claudeLink(e)}" target="_blank" rel="noopener">✦ Ask Claude</a>
+        <a class="mbtn c" href="${claudeLink(e)}" target="_blank" rel="noopener">✦ Claude</a>
       </div>`;
     document.getElementById("modalbg").classList.add("open");
   }
