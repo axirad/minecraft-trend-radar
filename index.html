@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minecraft Trend Radar — FunSun</title>
+<style>
+  :root{
+    --bg:#0b1020; --bg2:#0f1730; --card:#141d38; --card2:#18224250;
+    --line:#26335c; --txt:#e9eefb; --mut:#8f9cc4; --accent:#3ddc84;
+    --accent2:#7c5cff; --hot:#ff4d4d; --warn:#ffb020;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:radial-gradient(1200px 600px at 80% -10%, #1a2550 0%, var(--bg) 55%);
+    color:var(--txt); font-family:Inter,Segoe UI,system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased; padding:28px 20px 60px;
+  }
+  .wrap{max-width:1100px; margin:0 auto}
+  .mono{font-family:ui-monospace,"Cascadia Code",Consolas,monospace}
+
+  header.top{display:flex; align-items:flex-start; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-bottom:18px}
+  .brand{display:flex; align-items:center; gap:14px}
+  .logo{width:46px;height:46px;border-radius:12px;background:
+    conic-gradient(from 45deg,#3ddc84,#2bb673 25%,#1f9d57 50%,#3ddc84);
+    box-shadow:0 8px 30px #3ddc8433; display:grid; place-items:center; font-size:24px}
+  h1{font-size:22px; margin:0; letter-spacing:.5px}
+  h1 small{display:block; font-weight:500; color:var(--mut); font-size:12px; letter-spacing:2px; text-transform:uppercase; margin-top:3px}
+  .updated{text-align:right; color:var(--mut); font-size:12px}
+  .updated b{color:var(--accent)}
+
+  .headline{background:linear-gradient(90deg,#16224a,#141d38); border:1px solid var(--line);
+    border-left:4px solid var(--accent); border-radius:14px; padding:16px 18px; margin-bottom:24px;
+    font-size:15px; line-height:1.5}
+
+  .section-title{display:flex; align-items:center; gap:10px; margin:30px 0 14px; font-size:13px;
+    letter-spacing:2px; text-transform:uppercase; color:var(--mut)}
+  .section-title::after{content:""; flex:1; height:1px; background:var(--line)}
+
+  /* Hot Now leaderboard */
+  .hot-grid{display:grid; gap:10px}
+  .hot-row{display:grid; grid-template-columns:26px 1fr 150px; gap:14px; align-items:center;
+    background:var(--card); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+  .rank{font-size:15px; font-weight:700; color:var(--mut); text-align:center}
+  .rank.top{color:var(--accent)}
+  .hot-main{min-width:0}
+  .hot-name{font-weight:600; font-size:15px; display:flex; align-items:center; gap:8px}
+  .chip{font-size:10px; letter-spacing:.5px; text-transform:uppercase; padding:2px 7px; border-radius:20px;
+    background:#1f2b50; color:var(--mut); border:1px solid var(--line); white-space:nowrap}
+  .chip.cr{color:#9fb4ff} .chip.mob{color:#ff9ed1} .chip.fmt{color:#ffd27a}
+  .rise{color:var(--accent); font-size:12px; font-weight:700}
+  .bar-track{height:8px; background:#0c1428; border-radius:6px; margin-top:8px; overflow:hidden}
+  .bar-fill{height:100%; border-radius:6px}
+  .hot-stats{text-align:right; font-size:12px; color:var(--mut); line-height:1.5}
+  .hot-stats b{color:var(--txt)}
+  .buzzval{font-size:20px; font-weight:800}
+
+  /* Movers cards */
+  .movers{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+  .mcard{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px}
+  .mcard h3{margin:0 0 10px; font-size:13px; letter-spacing:1px; text-transform:uppercase}
+  .mcard.up h3{color:var(--accent)} .mcard.new h3{color:var(--accent2)}
+  .tagrow{display:flex; flex-wrap:wrap; gap:8px}
+  .tag{background:#0f1830; border:1px solid var(--line); border-radius:8px; padding:6px 10px; font-size:13px}
+
+  /* Heatmap */
+  .legend{display:flex; align-items:center; gap:8px; font-size:11px; color:var(--mut); margin:0 0 12px}
+  .legend .ramp{height:10px; width:140px; border-radius:6px;
+    background:linear-gradient(90deg,#14233a,#15546b,#1f9d57,#c9d12b,#f59e0b,#ef2b2b)}
+  .hm-group{margin-bottom:8px}
+  .hm-grouphdr{font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--mut); margin:16px 0 6px}
+  .hm-row{display:grid; grid-template-columns:200px 1fr 200px; gap:12px; align-items:center;
+    padding:5px 0; border-bottom:1px solid #1a2440}
+  .hm-name{font-size:13.5px; display:flex; align-items:center; gap:7px; min-width:0}
+  .hm-name .nm{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  a.lnk{color:inherit; text-decoration:none; border-bottom:1px dotted #ffffff3a; transition:.15s}
+  a.lnk:hover{color:var(--accent); border-bottom-color:var(--accent)}
+  a.lnk::after{content:"↗"; font-size:.72em; color:var(--mut); margin-left:3px; vertical-align:super}
+  a.lnk:hover::after{color:var(--accent)}
+  .hm-cells{display:flex; gap:5px; overflow-x:auto; padding:2px 0}
+  .cell{width:34px; height:34px; border-radius:7px; display:grid; place-items:center;
+    font-size:12px; font-weight:700; color:#fff; flex:0 0 auto; border:1px solid #ffffff14;
+    text-shadow:0 1px 2px #0008}
+  .hm-stats{display:flex; align-items:center; justify-content:flex-end; gap:10px; font-size:12px; color:var(--mut)}
+  .subpill{background:#0f1830; border:1px solid var(--line); border-radius:20px; padding:3px 9px; white-space:nowrap}
+  .ibar{width:70px; height:7px; background:#0c1428; border-radius:5px; overflow:hidden}
+  .ibar > div{height:100%; background:linear-gradient(90deg,var(--accent2),#b4a3ff)}
+
+  footer{margin-top:36px; color:var(--mut); font-size:11.5px; line-height:1.6; border-top:1px solid var(--line); padding-top:16px}
+  footer b{color:var(--txt)}
+  .wk-head{display:flex; gap:5px; margin:0 0 4px 212px; color:var(--mut); font-size:10px}
+  .wk-head .wk{width:34px; text-align:center; flex:0 0 auto}
+
+  @media(max-width:760px){
+    .hm-row{grid-template-columns:130px 1fr; }
+    .hm-stats{display:none}
+    .hot-row{grid-template-columns:24px 1fr 110px}
+    .movers{grid-template-columns:1fr}
+    .wk-head{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="logo">🟩</div>
+      <h1>Minecraft Trend Radar<small>FunSun · kid-audience intel</small></h1>
+    </div>
+    <div class="updated">Updated <b id="updated">—</b><br><span id="wkcount"></span></div>
+  </header>
+
+  <div class="headline" id="headline"></div>
+
+  <div class="section-title">🔥 Hot Now</div>
+  <div class="hot-grid" id="hotnow"></div>
+
+  <div class="section-title">📈 This Week's Movers</div>
+  <div class="movers" id="movers"></div>
+
+  <div class="section-title">🗺️ Heat Map — buzz over time</div>
+  <div class="legend"><span>cold</span><div class="ramp"></div><span>hot</span><span style="margin-left:10px">· number = buzz (0–10) · right = subs / search interest</span></div>
+  <div class="wk-head" id="wkhead"></div>
+  <div id="heatmap"></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script src="trends_data.js"></script>
+<script>
+(function(){
+  const D = window.TREND_DATA;
+  if(!D){ document.body.innerHTML = "<p style='color:#fff;font-family:sans-serif'>No data file found (trends_data.js).</p>"; return; }
+  const lastIdx = D.weeks.length - 1;
+  const latest = e => { for(let i=e.buzz.length-1;i>=0;i--){ if(e.buzz[i]!=null) return e.buzz[i]; } return 0; };
+  const latestInt = e => { for(let i=e.interest.length-1;i>=0;i--){ if(e.interest[i]!=null) return e.interest[i]; } return 0; };
+
+  // ---- heat color ramp for buzz 0..10 ----
+  const STOPS = [[0,[20,35,58]],[2,[21,84,107]],[4,[31,157,87]],[6,[201,209,43]],[8,[245,158,11]],[10,[239,43,43]]];
+  function buzzColor(v){
+    if(v==null) return "#0c142850";
+    v=Math.max(0,Math.min(10,v));
+    for(let i=0;i<STOPS.length-1;i++){
+      const [a,ca]=STOPS[i], [b,cb]=STOPS[i+1];
+      if(v>=a && v<=b){
+        const t=(v-a)/(b-a);
+        const c=ca.map((x,k)=>Math.round(x+(cb[k]-x)*t));
+        return `rgb(${c[0]},${c[1]},${c[2]})`;
+      }
+    }
+    return "rgb(239,43,43)";
+  }
+  const typeChip = t => t==="Creator"?["cr","Creator"]:t==="Character/Mob"?["mob","Char/Mob"]:["fmt","Format"];
+  function linkFor(e){
+    if(e.link) return e.link;                       // explicit URL wins
+    if(e.type==="Creator")                          // lands on their channel
+      return "https://www.youtube.com/results?search_query="+encodeURIComponent(e.name+" minecraft");
+    return "https://www.google.com/search?q="+encodeURIComponent("Minecraft "+e.name);
+  }
+  const esc = s => String(s).replace(/"/g,'&quot;');
+
+  document.getElementById("updated").textContent = D.updated;
+  document.getElementById("wkcount").textContent = D.weeks.length + (D.weeks.length===1?" week tracked":" weeks tracked");
+  document.getElementById("headline").innerHTML = "<b>📡 Read:</b> " + (D.headline||"");
+
+  // ---- Hot Now (top by latest buzz) ----
+  const hot = [...D.entities].sort((a,b)=>latest(b)-latest(a)).slice(0,8);
+  document.getElementById("hotnow").innerHTML = hot.map((e,i)=>{
+    const b=latest(e), [cc,cl]=typeChip(e.type);
+    return `<div class="hot-row">
+      <div class="rank ${i<3?'top':''}">${i+1}</div>
+      <div class="hot-main">
+        <div class="hot-name"><a class="lnk" href="${linkFor(e)}" target="_blank" rel="noopener">${e.name}</a> <span class="chip ${cc}">${cl}</span> ${e.rising?'<span class="rise">▲ rising</span>':''}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${b*10}%;background:${buzzColor(b)}"></div></div>
+      </div>
+      <div class="hot-stats">
+        <div class="buzzval mono" style="color:${buzzColor(b)}">${b.toFixed(1)}</div>
+        <div>${e.subs?('<b>'+e.subs+'M</b> subs · '):''}interest <b>${latestInt(e)}</b></div>
+      </div>
+    </div>`;
+  }).join("");
+
+  // ---- Movers ----
+  const tagList = arr => (arr&&arr.length)? arr.map(n=>`<span class="tag">${n}</span>`).join("") : '<span class="tag" style="color:#8f9cc4">— none —</span>';
+  document.getElementById("movers").innerHTML = `
+    <div class="mcard up"><h3>▲ Climbing</h3><div class="tagrow">${tagList(D.movers&&D.movers.up)}</div></div>
+    <div class="mcard new"><h3>✨ New on the radar</h3><div class="tagrow">${tagList(D.movers&&D.movers.new)}</div></div>`;
+
+  // ---- week header (aligns over the cells) ----
+  document.getElementById("wkhead").innerHTML = D.weeks.map(w=>`<div class="wk">${w}</div>`).join("");
+
+  // ---- Heatmap grouped by type ----
+  const groups=[["Creator","Creators"],["Character/Mob","Characters & Mobs"],["Format","Formats & Topics"]];
+  let html="";
+  groups.forEach(([key,label])=>{
+    const rows=D.entities.filter(e=>e.type===key).sort((a,b)=>latest(b)-latest(a));
+    if(!rows.length) return;
+    html+=`<div class="hm-grouphdr">${label}</div>`;
+    rows.forEach(e=>{
+      const cells=D.weeks.map((w,i)=>{
+        const v=e.buzz[i];
+        const tip=`${e.name} · ${w} · buzz ${v==null?'—':v} · interest ${e.interest[i]==null?'—':e.interest[i]}`;
+        return `<div class="cell" style="background:${buzzColor(v)}" title="${tip}">${v==null?'':v}</div>`;
+      }).join("");
+      html+=`<div class="hm-row">
+        <div class="hm-name">${e.rising?'<span class="rise">▲</span>':''}<a class="lnk nm" href="${linkFor(e)}" target="_blank" rel="noopener" title="${esc(e.note||e.name)}">${e.name}</a></div>
+        <div class="hm-cells">${cells}</div>
+        <div class="hm-stats">
+          <span class="subpill">${e.subs?e.subs+'M subs':'subs —'}</span>
+          <span class="ibar" title="search interest ${latestInt(e)}/100"><div style="width:${latestInt(e)}%"></div></span>
+        </div>
+      </div>`;
+    });
+  });
+  document.getElementById("heatmap").innerHTML=html;
+
+  document.getElementById("foot").innerHTML =
+    `<b>How to read this:</b> <b>Buzz (0–10)</b> is an editorial "how much are kids talking about this" score from a daily web scan. ` +
+    `<b>Search interest (0–100)</b> is Google-Trends-style search demand. <b>Subs</b> = channel size (millions). ` +
+    `The heat map fills in as weeks accumulate — trend direction (who's heating up / cooling off) is the point, not any single week. ` +
+    `<br>Built for FunSun to spot which Minecraft characters & creators to turn into merch before they peak.`;
+})();
+</script>
+</body>
+</html>
