@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Minecraft Trend Radar — FunSun</title>
+<title>Minecraft Trend Radar — Red Lava Toys</title>
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -30,9 +30,7 @@
 
   header.top{display:flex; align-items:flex-start; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-bottom:18px}
   .brand{display:flex; align-items:center; gap:14px}
-  .logo{width:46px;height:46px;border-radius:12px;background:
-    conic-gradient(from 45deg,#3ddc84,#2bb673 25%,#1f9d57 50%,#3ddc84);
-    box-shadow:0 8px 30px #3ddc8433; display:grid; place-items:center; font-size:24px}
+  .logo{width:50px;height:50px;object-fit:contain; filter:drop-shadow(0 4px 12px #ff5a0066)}
   h1{font-size:22px; margin:0; letter-spacing:.5px}
   h1 small{display:block; font-weight:500; color:var(--mut); font-size:12px; letter-spacing:2px; text-transform:uppercase; margin-top:3px}
   .updated{text-align:right; color:var(--mut); font-size:12px}
@@ -135,8 +133,8 @@
 <div class="wrap">
   <header class="top">
     <div class="brand">
-      <div class="logo">🟩</div>
-      <h1>Minecraft Trend Radar<small>FunSun · kid-audience intel</small></h1>
+      <img class="logo" src="rlt-logo.png" alt="Red Lava Toys">
+      <h1>Minecraft Trend Radar<small>Red Lava Toys · kid-audience intel</small></h1>
     </div>
     <div class="updated">Updated <b id="updated">—</b><br><span id="wkcount"></span></div>
   </header>
@@ -283,7 +281,7 @@
     `<b>How to read this:</b> <b>Buzz (0–10)</b> is an editorial "how much are kids talking about this" score from a daily web scan. ` +
     `<b>Search interest (0–100)</b> is Google-Trends-style search demand. <b>Subs</b> = channel size (millions). ` +
     `The heat map fills in as weeks accumulate — trend direction (who's heating up / cooling off) is the point, not any single week. ` +
-    `<br>Built for FunSun to spot which Minecraft characters & creators to turn into merch before they peak.`;
+    `<br>Built for Red Lava Toys to spot which Minecraft characters & creators to turn into merch before they peak.`;
 
   // open detail panel on a name click; close on X / backdrop / Esc
   document.addEventListener("click", ev => {
