@@ -58,6 +58,13 @@ window.TREND_DATA = {
       about: "Stampy (Stampy Cat) is the original kid-safe Minecraft creator, voiced as a cheerful cartoon cat. His long-running 'Lovely World' series is wholesome, narrative and genuinely funny. A trusted classic for the youngest viewers." },
 
     // ---- CHARACTERS & MOBS (cute/iconic = direct merch fuel) ----
+    // Animated character duos — extremely high recognition w/ 6-10 y/o; CONFIRMED top sellers at Red Lava Toys shows.
+    { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [9], interest: [88], rising: true,
+      about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — funny, action-packed challenge and 'good vs bad' stories pulling 1M+ views per video. They're instantly recognized by the 6–10 crowd and have spawned a whole genre of copycats. Confirmed huge sellers at Red Lava Toys shows — a top merch priority." },
+    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [8], interest: [80], rising: true,
+      about: "Nico and Cash are a paired-character Minecraft animation duo in the same skit/challenge style as JJ & Mikey, part of the broader Maizen-style universe. Recognition with younger kids is extremely high. Confirmed strong demand at Red Lava Toys shows." },
+    { name: "Chip & Milo", type: "Character/Mob", subs: null, buzz: [8], interest: [78], rising: true,
+      about: "Milo and Chip are another popular animated-Minecraft character duo in the JJ-&-Mikey vein of challenge and story skits. They're very well known to the 6–10 audience. Confirmed big at Red Lava Toys shows." },
     { name: "Baby mobs (Tiny Takeover)", type: "Character/Mob", subs: null, buzz: [9], interest: [85], rising: true,
       about: "The 2026 'Tiny Takeover' drop redesigned every baby farm animal — puppies, kittens, piglets, calves, chicks, lambs, ocelots and bunnies — for maximum cuteness. Mojang billed it as their 'cutest drop ever,' and it's dominating cute-content and shorts. The instantly recognizable, adorable designs are a strong merch signal." },
     { name: "Sulfur cube", type: "Character/Mob", subs: null, buzz: [6], interest: [50], rising: true,
@@ -73,10 +80,10 @@ window.TREND_DATA = {
   ],
 
   movers: {
-    up:   ["Baby mobs (Tiny Takeover)", "Maizen", "Aphmau", "CaseOh"],
+    up:   ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "Baby mobs (Tiny Takeover)", "Maizen"],
     down: [],
-    new:  ["Baby mobs (Tiny Takeover)", "Sulfur cube", "Maizen", "CaseOh"]
+    new:  ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "Baby mobs (Tiny Takeover)", "Sulfur cube"]
   },
 
-  headline: "Baby-mob 'Tiny Takeover' drop is the hottest thing in kid-Minecraft right now — adorable, iconic, and a clear merch signal. Aphmau still leads creators; Maizen & CaseOh are the rising names to watch."
+  headline: "Animated character duos — JJ & Mikey, Nico & Cash, Chip & Milo — are massive with 6–10s and CONFIRMED top sellers at Red Lava Toys shows; prime merch right now. The 'Tiny Takeover' baby-mob drop is the other hot signal. Aphmau & Maizen lead the creators."
 };
