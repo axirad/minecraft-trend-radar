@@ -25,7 +25,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-06-23",
+  updated: "2026-06-24",
   weeks: ["Jun 1"],            // week-start labels, oldest -> newest
 
   entities: [
@@ -44,10 +44,10 @@ window.TREND_DATA = {
       about: "SSundee (~25M subs, 57M+ monthly views, 3,700+ videos) is a top US Minecraft creator known for funny commentary and constantly dropping pop-culture characters into mod games. His upbeat, broadly kid-appropriate style and high upload frequency keep him a steady 6–10 favorite in 2026." },
     { name: "LankyBox", type: "Creator", subs: null, buzz: [7], interest: [66], rising: true,
       about: "LankyBox is a high-energy duo whose 'brainrot'-style skits use Minecraft (and other game) skins for chaotic comedy. The brand is heavily merch-driven with Foxy, Boxy, and Rocky plushies actively selling on TikTok Shop. Polarizing with parents, but enormously popular with kids." },
-    { name: "CaseOh", type: "Creator", subs: 10, buzz: [7], interest: [64], rising: true,
-      about: "CaseOh is a rising creator at 10.4M subscribers gaining ~200K/month, known for reaction and 'Minecraft BUT…' challenge videos with a big comedic personality. His clips spread fast across YouTube Shorts and TikTok. Multi-game creator, but his Minecraft content pulls strong kid numbers." },
-    { name: "EYstreem", type: "Creator", subs: 13.6, buzz: [7], interest: [68], rising: true,
-      about: "EYstreem is Australia's most-watched global gaming YouTuber (~13.6M subs, 75–100M monthly views), making almost exclusively Minecraft content for kids 6–10. His Melbourne production company Spawnpoint Media also runs Firelight (4.1M subs), Milo & Chip (4.1M subs), and other channels — all part of the same interconnected character universe. A Minecraft Marketplace skin pack featuring EYstreem, Firelight, Milo, Chip, Cash, and Nico confirms the crossover popularity." },
+    { name: "CaseOh", type: "Creator", subs: 10.4, buzz: [7], interest: [64], rising: true,
+      about: "CaseOh is a rising creator at 10.4M subscribers (confirmed June 2026), known for reaction and 'Minecraft BUT…' challenge videos with a big comedic personality. His clips spread fast across YouTube Shorts and TikTok. Multi-game creator, but his Minecraft content pulls strong kid numbers." },
+    { name: "EYstreem", type: "Creator", subs: 13.6, buzz: [8], interest: [72], rising: true,
+      about: "EYstreem is Australia's most-watched global gaming YouTuber (~13.6M subs, 75–100M monthly views), profiled in a June 2026 Tubefilter feature on how his Melbourne studio Spawnpoint Media is building global brands on YouTube. The Milo plush sold out in 2 weeks (4,000 orders, zero paid marketing) and the first Chip & Milo Marketplace skin pack outsold Star Wars — Spawnpoint's next stated priority is brand partnerships and merch." },
     { name: "DanTDM", type: "Creator", subs: 26, buzz: [6], interest: [60], rising: false,
       about: "DanTDM is a long-running British Minecraft creator (~26M subs) active since 2012. He's known for clean, family-friendly Let's Plays, mod showcases and challenges. A trusted, evergreen name with the kid audience." },
     { name: "PrestonPlayz", type: "Creator", subs: null, buzz: [6], interest: [55], rising: false,
@@ -69,8 +69,8 @@ window.TREND_DATA = {
       about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — the JJ & Mikey TV series is NOW LIVE on Tubi, Roku, and Ryan and Friends Plus (June 2026). The Mikey Turtle plush has already sold out on the official store; official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. The indie-merch window is at PEAK urgency — confirmed #1 top sellers at Red Lava Toys shows." },
     { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [8], interest: [80], rising: true,
       about: "Nico and Cash are a paired-character Minecraft animation duo in the same skit/challenge style as JJ & Mikey — their individual channels each approach ~5M subs and both are gaining ~100K/month. Official merch is LIVE at cashandnico.com (plushies, shirts, stickers, comic books). Third-party plushes also sell on Etsy. Confirmed strong demand at Red Lava Toys shows." },
-    { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [8], interest: [78], rising: true,
-      about: "Milo and Chip are another popular animated-Minecraft character duo from EYstreem's Spawnpoint Media studio (~4.1M subs). Their channel generated 16 BILLION watch minutes from May-October 2025 — on par with SpongeBob SquarePants — signaling a massive young-kid audience. They have an official Minecraft Marketplace skin pack and merch at miloandchip.com, plus an active Etsy and Amazon presence. Confirmed big at Red Lava Toys shows." },
+    { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9], interest: [83], rising: true,
+      about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs; 16 BILLION watch minutes May–Oct 2025, on par with SpongeBob). A June 2026 Tubefilter feature confirmed their merch breakout: the Milo plush sold out in 2 weeks with 4,000 orders and zero paid marketing, and their Minecraft Marketplace skin pack outsold Star Wars — still the #1 best-seller there. Spawnpoint's stated next focus is brand partnerships and merch, making indie demand for this universe now at peak." },
 
     // ---- FORMATS / TOPICS (what kind of videos they're glued to) ----
     { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7], interest: [62], rising: false,
@@ -81,7 +81,7 @@ window.TREND_DATA = {
       about: "Minecraft roleplay (RP) servers are fictional worlds with their own economies, governments and ongoing storylines where players act out characters. They're growing fast as a social, narrative way to play. Popular with kids who love the 'pretend' and community side." },
 
     // ---- MOJANG IP — official game content (CUSTOMER AWARENESS ONLY, not merch) ----
-    { name: "Baby mobs (Tiny Takeover)", type: "Character/Mob", ip: "mojang", subs: null, buzz: [7], interest: [72], rising: false,
+    { name: "Baby mobs (Tiny Takeover)", type: "Character/Mob", ip: "mojang", subs: null, buzz: [6], interest: [65], rising: false,
       about: "The March 2026 'Tiny Takeover' drop redesigned every baby farm animal — puppies, kittens, piglets, calves, chicks, lambs, ocelots and bunnies — for maximum cuteness. Three months post-launch, the initial viral wave has settled; still culturally present but no longer spiking. Official Mojang content: great to know about for customer chats, but NOT something Red Lava Toys can make merch of." },
     { name: "Sulfur cube", type: "Character/Mob", ip: "mojang", subs: null, buzz: [6], interest: [52], rising: true,
       about: "The sulfur cube is a Minecraft mob that can absorb blocks — a mechanic unlike anything else in the game, driving lots of reaction/explainer videos. Official Mojang content: worth knowing for customer conversations, but not merch-eligible for Red Lava Toys." }
@@ -89,10 +89,10 @@ window.TREND_DATA = {
 
   // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["JJ & Mikey", "Maizen", "Chip & Milo", "Nico & Cash", "CaseOh"],
+    up:   ["Chip & Milo", "JJ & Mikey", "EYstreem", "Maizen", "CaseOh"],
     down: [],
-    new:  ["SSundee", "EYstreem"]
+    new:  ["SSundee"]
   },
 
-  headline: "JJ & Mikey TV series NOW LIVE on Tubi, Roku & Ryan and Friends Plus — peak indie-merch window before Bonkers Toys hits major retailers spring 2027; Mikey Turtle plush already sold out. EYstreem joins radar: 13.6M-sub Australian Minecraft creator whose Spawnpoint Media also makes Chip & Milo (16B watch minutes May-Oct 2025, on par with SpongeBob) — the crossover universe with Nico & Cash is bigger than it looks. Maizen corrected to 17M subs / 267M monthly views. (Mojang content tracked for awareness only — not merch.)"
+  headline: "Chip & Milo merch breakout confirmed (Tubefilter, June 2026): Milo plush sold out in 2 weeks with 4,000 orders and zero paid marketing; Minecraft Marketplace skin pack outsold Star Wars and is still #1 — Spawnpoint Media's next priority is brand partnerships and merch. JJ & Mikey TV series LIVE on Tubi/Roku/Ryan and Friends Plus; Mikey Turtle plush sold out; indie-merch window at peak before Bonkers Toys hits major retailers spring 2027. (Mojang content tracked for awareness only — not merch.)"
 };
