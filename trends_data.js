@@ -25,13 +25,13 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-06-25",
+  updated: "2026-06-26",
   weeks: ["Jun 1"],            // week-start labels, oldest -> newest
 
   entities: [
     // ---- CREATORS (the "make my skin look like them" names) ----
     { name: "Aphmau", type: "Creator", subs: 25.9, buzz: [8], interest: [78], rising: true,
-      about: "Aphmau (Jess) is one of the biggest kid-facing Minecraft creators, confirmed at ~25.9M subscribers in 2026 with 29.1B+ lifetime views. Her channel blends modded, RPG-style roleplay 'episodes' with music videos and Shorts. The bright, character-driven storytelling makes her a go-to for the 6–10 crowd — and her MeeMeows blind-box plush line (now on Series 8 'Elemental') is in Amazon, Walmart, Target, and Claire's." },
+      about: "Aphmau (Jess) is one of the biggest kid-facing Minecraft creators, confirmed at ~25.9M subscribers in 2026 with 29.1B+ lifetime views. Her channel blends modded, RPG-style roleplay 'episodes' with music videos and Shorts. The bright, character-driven storytelling makes her a go-to for the 6–10 crowd — and her MeeMeows blind-box plush line (now on Series 7 'Elemental') is in Amazon, Walmart, Target, and Claire's." },
     { name: "Maizen", type: "Creator", subs: 23, buzz: [9], interest: [76], rising: true,
       about: "Maizen (22.9M subs per Variety May 2026; 267M+ monthly views) makes story-driven Minecraft skits built around its 'JJ and Mikey' characters. In 2026 it signed a Pocket.watch franchise deal — the JJ & Mikey TV series is NOW streaming on Tubi, Roku, and Ryan and Friends Plus; Scholastic books arrive early 2027; official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. The CHANNEL's value to us is its CHARACTERS — the indie-merch window is at peak urgency." },
     { name: "Mikecrack", type: "Creator", subs: 58, buzz: [7], interest: [72], rising: false,
@@ -67,8 +67,8 @@ window.TREND_DATA = {
     // Animated character duos — extremely high recognition w/ 6-10 y/o; CONFIRMED top sellers at Red Lava Toys shows.
     { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [10], interest: [96], rising: true,
       about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — the JJ & Mikey TV series is NOW LIVE on Tubi, Roku, and Ryan and Friends Plus (June 2026). The Mikey Turtle plush has already sold out on the official store; official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. The indie-merch window is at PEAK urgency — confirmed #1 top sellers at Red Lava Toys shows." },
-    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [8], interest: [79], rising: true,
-      about: "Nico and Cash are a paired-character Minecraft animation duo in the same skit/challenge style as JJ & Mikey — their individual channels each approach ~5M subs and both are gaining ~100K/month. Official merch is LIVE at cashandnico.com (plushies, shirts, stickers, comic books). Third-party plushes also sell on Etsy. Confirmed strong demand at Red Lava Toys shows." },
+    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [9], interest: [85], rising: true,
+      about: "Nico and Cash are a paired-character Minecraft animation duo in the same skit/challenge style as JJ & Mikey — Cash's channel reached 11M subscribers on June 8, 2026 (Nico at 4.9M and climbing fast). Official merch is LIVE at cashandnico.com (plushies, shirts, stickers, comic books). Third-party plushes sell on Etsy. Confirmed strong demand at Red Lava Toys shows — this duo is growing fast out of JJ & Mikey's shadow." },
     { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9], interest: [85], rising: true,
       about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs; 16B watch minutes May–Oct 2025). The Milo plush sold out in 2 weeks (4,000 orders, zero paid marketing), and the Elemental Milo & Chip skin pack launched May 2026. Their Minecraft Marketplace skin pack remains the #1 best-seller (outsold Star Wars). Spawnpoint's next priority is brand partnerships — indie demand at peak." },
     { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.6, buzz: [8], interest: [70], rising: true,
@@ -93,10 +93,10 @@ window.TREND_DATA = {
 
   // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["JJ & Mikey", "Chip & Milo", "EYstreem", "Maizen", "SSundee", "PrestonPlayz"],
+    up:   ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "EYstreem", "Maizen", "SSundee", "PrestonPlayz"],
     down: [],
     new:  ["Alan Becker (AvM)"]
   },
 
-  headline: "JJ & Mikey TV series NOW LIVE (Tubi/Roku/Ryan+) — indie-merch window at peak urgency before Bonkers Toys hits major retail spring 2027; Mikey Turtle plush already sold out. Chip & Milo Milo plush sold out (4,000 orders, zero marketing) + Elemental skin pack live May 2026. Alan Becker's AvM stick figures newly tracked: 33.6M subs, Youtooz blind box already exists — underserved in show merch. SSundee surging (57M+ monthly views, +100K/month). (Mojang content tracked for awareness only — not merch.)"
+  headline: "JJ & Mikey TV series LIVE (Tubi/Roku/Ryan+) — indie-merch window at peak urgency before Bonkers Toys hits major retail spring 2027; Mikey Turtle plush sold out. Nico & Cash breakout: Cash hit 11M subs June 8, 2026 — rapidly growing duo with active official merch and confirmed strong show demand. Chip & Milo Milo plush sold out (4,000 orders, zero marketing) + Elemental skin pack live May 2026. Alan Becker AvM newly tracked: 33.6M subs, Youtooz blind box active — underserved in show merch. (Mojang content tracked for awareness only — not merch.)"
 };
