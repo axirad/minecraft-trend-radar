@@ -25,7 +25,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-06-27",
+  updated: "2026-06-28",
   weeks: ["Jun 1"],            // week-start labels, oldest -> newest
 
   entities: [
@@ -66,11 +66,11 @@ window.TREND_DATA = {
     // ---- FAN / ANIMATION CHARACTERS (merch-eligible — NOT Mojang's mobs) ----
     // Animated character duos — extremely high recognition w/ 6-10 y/o; CONFIRMED top sellers at Red Lava Toys shows.
     { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [10], interest: [96], rising: true,
-      about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — the JJ & Mikey TV series is NOW LIVE on Tubi, Roku, and Ryan and Friends Plus (June 2026). The Mikey Turtle plush has already sold out on the official store; official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. The indie-merch window is at PEAK urgency — confirmed #1 top sellers at Red Lava Toys shows." },
-    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [9], interest: [85], rising: true,
-      about: "Nico and Cash are a paired-character Minecraft animation duo in the same skit/challenge style as JJ & Mikey — Cash's channel reached 11M subscribers on June 8, 2026 (Nico at 4.9M and climbing fast). Official merch is LIVE at cashandnico.com (plushies, shirts, stickers, comic books). Third-party plushes sell on Etsy. Confirmed strong demand at Red Lava Toys shows — this duo is growing fast out of JJ & Mikey's shadow." },
+      about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — the JJ & Mikey TV series is NOW LIVE on Tubi, Roku, and Ryan and Friends Plus (June 2026). The Mikey Turtle plush has sold out on the official store, and a TikTok Shop 'Johnny Minecraft Plush' listing has crossed 171,600 units sold (June 2026) — the strongest individual TikTok Shop commerce signal in the Minecraft character category. Official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. The indie-merch window is at PEAK urgency — confirmed #1 top sellers at Red Lava Toys shows." },
+    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [10], interest: [90], rising: true,
+      about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel reached 11M subscribers on June 8, 2026 (Nico at 4.9M and climbing fast). 'Nico: The Movie' is a 2026 theatrical animated feature directed by Roger Allers (The Lion King) and co-written/voiced by Seth Rogen, with Anna Faris also in the cast — a massive franchise signal that will accelerate merch demand. Official merch lives at cashandnico.com (plushies, shirts, stickers, comic books); Etsy sellers active. Confirmed strong demand at Red Lava Toys shows — this duo has now reached viral tier alongside JJ & Mikey." },
     { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9], interest: [85], rising: true,
-      about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs; 16B watch minutes May–Oct 2025). The Milo plush sold out in 2 weeks (4,000 orders, zero paid marketing), and the Elemental Milo & Chip skin pack launched May 2026. Their Minecraft Marketplace skin pack remains the #1 best-seller (outsold Star Wars). Spawnpoint's next priority is brand partnerships — indie demand at peak." },
+      about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs; 16B watch minutes May–Oct 2025). The Milo plush sold out in 2 weeks (4,000 orders, zero paid marketing), and the Elemental Milo & Chip skin pack launched May 2026. Spawnpoint's CEO stated in June 2026 (Tubefilter) that brand partnerships and merchandise are 'significantly bigger businesses than our content business' — they are actively seeking expanded Milo & Chip opportunities, meaning formal retail deals are ramping and the indie window is closing." },
     { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.6, buzz: [8], interest: [70], rising: true,
       about: "Alan Becker's color-coded stick figures — Orange (The Second Coming), Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (33.6M subs, 9.6B+ views; hit 33M milestone May 2026). These are Becker's own original characters, not Mojang IP. Already merchandised through Youtooz blind boxes and alanbecker.shop plushies. Broad kids 6–14 appeal with strong name recognition at shows." },
 
@@ -87,16 +87,16 @@ window.TREND_DATA = {
       about: "The March 2026 'Tiny Takeover' drop redesigned every baby farm animal — puppies, kittens, piglets, calves, chicks, lambs, ocelots and bunnies — for maximum cuteness. Now ~4 months post-launch the initial viral wave has fully settled. Official Mojang content: great to know about for customer chats, but NOT something Red Lava Toys can make merch of." },
     { name: "Sulfur cube", type: "Character/Mob", ip: "mojang", subs: null, buzz: [6], interest: [54], rising: true,
       about: "The sulfur cube is a Minecraft mob that can absorb blocks — a mechanic unlike anything else in the game, driving lots of reaction/explainer videos. Official Mojang content: worth knowing for customer conversations, but not merch-eligible for Red Lava Toys." },
-    { name: "A Minecraft Movie", type: "Format", ip: "mojang", subs: null, buzz: [5], interest: [58], rising: false,
-      about: "The live-action/animated Warner Bros. film (2025) continues to drive merchandise sales on TikTok Shop, with Steve, Alex, and character plushies actively selling as kids discover it on streaming. Mojang/WB IP — excellent context for customer conversations about what kids are excited about, but not merch-eligible for Red Lava Toys." }
+    { name: "A Minecraft Movie", type: "Format", ip: "mojang", subs: null, buzz: [6], interest: [62], rising: false,
+      about: "The live-action/animated Warner Bros. film (April 2025) is dominating TikTok Shop in June 2026 — movie character plushies have crossed 10,000+ units sold and are among the fastest-moving Minecraft-themed products on the platform, driven by a streaming discovery wave. Kids will ask about Steve, Jack Black's character, and movie skins at shows. Mojang/WB IP — strong customer-conversation context, but not merch-eligible for Red Lava Toys." }
   ],
 
   // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["JJ & Mikey", "Nico & Cash", "Chip & Milo", "EYstreem", "Maizen", "SSundee", "Aphmau", "PrestonPlayz"],
+    up:   ["Nico & Cash", "JJ & Mikey", "Chip & Milo", "EYstreem", "Maizen", "SSundee", "Aphmau", "PrestonPlayz"],
     down: [],
     new:  ["Alan Becker (AvM)"]
   },
 
-  headline: "JJ & Mikey peak indie-merch urgency: Etsy dominant (2,600+ reviews on one listing), Mikey Turtle plush sold out (official store), TV series live on Tubi/Roku/Ryan+, and Bonkers Toys retail launch approaching Spring 2027 — fan-merch window is narrowing fast. SSundee (buzz raised to 8): 57.7M views/30 days + 100K/month growth, zero toy line = top no-competition show opportunity. Aphmau at VidCon 2026; MeeMeows Series 8 Minecraft Elemental now live on Amazon/Target/Walmart. PrestonPlayz Series 1 plush confirmed at Target + Walmart ($11.99, NAPPA Award) — indie window closing. (Mojang content tracked for awareness only — not merch.)"
+  headline: "BREAKING — Nico & Cash buzz raised to 10: 'Nico: The Movie' is a 2026 theatrical animated feature directed by Roger Allers (The Lion King) with Seth Rogen and Anna Faris — the franchise is about to explode and the indie-merch window is closing fast. JJ & Mikey: TikTok Shop hit 171,600 units sold on a single listing (June 2026) + Mikey Turtle sold out = still the #1 show-floor seller; Bonkers Toys retail Spring 2027 is the deadline. Chip & Milo: Spawnpoint CEO confirms merch 'significantly bigger than content business' (Tubefilter, June 2026) — formal deals ramping, indie window narrowing. SSundee (25.4M subs, 57.7M views/30 days, zero toy line) = best no-competition opportunity on the radar. (Mojang/WB content tracked for awareness only — not merch.)"
 };
