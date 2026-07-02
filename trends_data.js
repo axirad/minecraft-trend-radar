@@ -25,7 +25,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-07-01",
+  updated: "2026-07-02",
   weeks: ["Jun 1", "Jun 29"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -33,7 +33,7 @@ window.TREND_DATA = {
     { name: "Aphmau", type: "Creator", subs: 25.9, buzz: [8, 9], interest: [80, 86], rising: true,
       about: "Aphmau (Jess) is one of the biggest kid-facing Minecraft creators (~25.9M subscribers) with 29.1B+ lifetime views and 257M monthly views as of July 2026. Her MeeMeows Litter 7 Elemental — 8 elemental cat variants — is confirmed live at Amazon, Walmart, Target, Entertainment Earth, and ToyWiz simultaneously; a parallel 6-inch Carnival Treats plush line adds 9 more SKUs. The broadest retail placement in her toy line's history sustains peak summer demand with the 6–10 audience." },
     { name: "Maizen", type: "Creator", subs: 23, buzz: [9, 9], interest: [78, 83], rising: true,
-      about: "Maizen (22.9M subs per Variety May 2026; 267M+ monthly views) makes story-driven Minecraft skits built around its 'JJ and Mikey' characters. The JJ & Mikey TV series is streaming on Tubi, Roku, and Ryan and Friends Plus; Scholastic books arrive early 2027; official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. TikTok Shop Summer Sale ends TOMORROW July 2 — the indie-merch window is at absolute peak urgency today." },
+      about: "Maizen (22.9M subs per Variety May 2026; 267M+ monthly views) makes story-driven Minecraft skits built around its 'JJ and Mikey' characters. The JJ & Mikey TV series is streaming on Tubi, Roku, and Ryan and Friends Plus; Scholastic books arrive early 2027; official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. TikTok Shop's Deals For You Days summer event (June 17–July 2, 2026) closed today — demand remains strong heading into H2 summer shows." },
     { name: "Mikecrack", type: "Creator", subs: 58, buzz: [7, 7], interest: [72, 71], rising: false,
       about: "Mikecrack is the most-subscribed Spanish YouTuber at ~58.5M subs and is enormous with younger and Spanish-speaking kids. The Los Compas trio (Mikecrack, ElTrollino, Timba VK) book series has sold 31M+ copies worldwide across 10+ titles. His 'Mikecrack y la superarma secreta' live spectacular — an arena show based on his animated series — is actively touring. Strong, recognizable character designs across his recurring cast." },
     { name: "Jelly", type: "Creator", subs: 23, buzz: [7, 6], interest: [68, 64], rising: false,
@@ -43,9 +43,9 @@ window.TREND_DATA = {
     { name: "SSundee", type: "Creator", subs: 25.4, buzz: [8, 8], interest: [64, 67], rising: true,
       about: "SSundee (25,421,653 confirmed subs; 57.7M+ monthly views) is a top US Minecraft creator known for funny commentary and constantly dropping pop-culture characters into mod games. His upbeat, kid-appropriate style and high upload frequency keep him a steady 6–10 favorite — and the best open merch slot on the radar with zero competing official toy line." },
     { name: "LankyBox", type: "Creator", subs: null, buzz: [7, 8], interest: [65, 69], rising: true,
-      about: "LankyBox is a high-energy duo whose 'brainrot'-style skits use Minecraft (and other game) skins for chaotic comedy. The TikTok Shop storefront has crossed 748,700+ items sold (4.8-star rating, 81,900+ followers) — a verified high-volume commerce signal. Product line includes Foxy, Boxy, Thicc Shark, and Ghosty in reversible, scented, and mini mystery formats; also at Target, GameStop, and Amazon. The TikTok Shop Summer Sale ends TOMORROW July 2 — today (July 1) is the absolute last day of peak convert window. Polarizing with parents, irresistible to kids ages 4–8." },
-    { name: "CaseOh", type: "Creator", subs: 10.6, buzz: [7, 8], interest: [63, 69], rising: true,
-      about: "CaseOh has grown to 10.6M subscribers with 2.3B total views — gaining at a 1.96% monthly rate with strong engagement. His 'Minecraft Solo Hardcore Day 1' video hit 12.8M views. Known for reaction and 'Minecraft BUT…' challenge content with a big comedic personality, his clips spread fast on Shorts and TikTok. No official toy line yet — the window is wide open." },
+      about: "LankyBox is a high-energy duo whose 'brainrot'-style skits use Minecraft (and other game) skins for chaotic comedy. The TikTok Shop storefront has crossed 748,700+ items sold (4.8-star rating, 81,900+ followers) — a verified high-volume commerce signal. Product line includes Foxy, Boxy, Thicc Shark, and Ghosty in reversible, scented, and mini mystery formats; also at Target, GameStop, and Amazon. TikTok Shop's Deals For You Days summer event closed today (July 2) — the peak sell-through window has passed; plan next restock. Polarizing with parents, irresistible to kids ages 4–8." },
+    { name: "CaseOh", type: "Creator", subs: 10.6, buzz: [7, 9], interest: [63, 70], rising: true,
+      about: "CaseOh has grown to 10.6M subscribers with 2.3B total views — accelerating to 300K new subs in June 2026, placing him in the top 1% by weekly growth on YouTube, with an excellent 4.13% engagement rate. His 'Minecraft Solo Hardcore Day 1' video hit 12.8M views. Known for reaction and 'Minecraft BUT…' challenge content with a big comedic personality, his clips spread fast on Shorts and TikTok. No official toy line yet — the window is wide open." },
     { name: "EYstreem", type: "Creator", subs: 13.6, buzz: [8, 8], interest: [74, 77], rising: true,
       about: "EYstreem is Australia's most-watched global gaming YouTuber (~13.6M subs). Spawnpoint Media — his production company — now employs 100+ people generating 75–100M views/month across channels. The Milo collectible plush (which sold out in 2 weeks, 4,000 orders, zero paid marketing) is back in stock and shipping at miloandchip.com as of July 2026. Formal retail deals are ramping; the indie window is narrowing." },
     { name: "DanTDM", type: "Creator", subs: 26, buzz: [6, 6], interest: [58, 58], rising: false,
@@ -66,9 +66,9 @@ window.TREND_DATA = {
     // ---- FAN / ANIMATION CHARACTERS (merch-eligible — NOT Mojang's mobs) ----
     // Animated character duos — extremely high recognition w/ 6-10 y/o; CONFIRMED top sellers at Red Lava Toys shows.
     { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [10, 10], interest: [96, 96], rising: true,
-      about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — the JJ & Mikey TV series is streaming on Tubi, Roku, and Ryan and Friends Plus. TikTok Shop Summer Sale ends TOMORROW July 2 — today is the final day of peak indie sell-through; a single 'Johnny Minecraft Plush' listing previously crossed 171,600 units sold. Official Bonkers Toys plush + blind-boxes hit major retailers spring 2027 — indie window is at ABSOLUTE PEAK urgency. Confirmed #1 top sellers at Red Lava Toys shows." },
-    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [10, 10], interest: [90, 88], rising: true,
-      about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel at ~11M subscribers, Nico at ~4.9M and climbing. Both characters have strong dedicated fanbases and official merch at cashandnico.com (plushies including Nico Superhero, Cash Superhero, and Shady plushies, plus shirts, stickers, and comic books); Youtooz collectibles confirmed; Etsy sellers consistently active. Confirmed strong demand at Red Lava Toys shows — the duo competes directly with JJ & Mikey for top spots. No official toy licensing deal announced yet, keeping the indie window open." },
+      about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — the JJ & Mikey TV series is streaming on Tubi, Roku, and Ryan and Friends Plus. TikTok Shop's Deals For You Days summer event closed today (July 2) — a single 'Johnny Minecraft Plush' listing previously crossed 171,600 units sold on TikTok Shop alone. Official Bonkers Toys plush + blind-boxes hit major retailers spring 2027. Confirmed #1 top sellers at Red Lava Toys shows — strong demand continues through summer show season." },
+    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [10, 10], interest: [90, 92], rising: true,
+      about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel at ~11M subscribers, Nico at ~4.9M and climbing. 'Nico: The Movie' is a 2026 theatrical animated feature directed by Roger Allers (The Lion King) with Seth Rogen and Anna Faris confirmed in the voice cast — a massive franchise signal accelerating H2 merch demand. Official merch at cashandnico.com (plushies including Nico Superhero, Cash Superhero, and Shady plushies, plus shirts, stickers, and comic books); Etsy sellers consistently active. Confirmed strong demand at Red Lava Toys shows." },
     { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9, 9], interest: [85, 88], rising: true,
       about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs). The Milo collectible plush — which sold out in 2 weeks (4,000 orders, zero paid marketing) — is back in stock and now shipping at miloandchip.com as of July 2026. The Elemental Milo & Chip skin pack launched May 2026. T-shirts, stickers, and water bottles remain available; formal retail deals ramping as the indie window narrows." },
     { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.6, buzz: [8, 7], interest: [70, 70], rising: true,
@@ -78,7 +78,7 @@ window.TREND_DATA = {
     { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7, 7], interest: [61, 62], rising: false,
       about: "'Minecraft BUT…' is a dominant format where a normal playthrough is twisted by one wild rule or mod (e.g. 'Minecraft BUT everything is giant'). It's build/challenge/reaction content that's endlessly remixable. CaseOh's Hardcore format is the current evolution of this template." },
     { name: "Brainrot skits", type: "Format", subs: null, buzz: [7, 7], interest: [63, 65], rising: true,
-      about: "'Brainrot' skits are chaotic, sensory-overload short videos that use Minecraft skins to act out absurd stories. LankyBox's TikTok Shop Summer Sale (final day July 1) demonstrates this audience converts directly to buyers at high volume. Fast, loud and meme-driven — controversial with parents, irresistible to kids." },
+      about: "'Brainrot' skits are chaotic, sensory-overload short videos that use Minecraft skins to act out absurd stories. LankyBox's TikTok Shop Summer Sale sell-through (748K+ items sold, sale closed July 2) confirms this audience converts directly to buyers at high volume. Fast, loud and meme-driven — controversial with parents, irresistible to kids." },
     { name: "Roleplay servers", type: "Format", subs: null, buzz: [5, 5], interest: [46, 47], rising: true,
       about: "Minecraft roleplay (RP) servers are fictional worlds with their own economies, governments and ongoing storylines where players act out characters. They're growing fast as a social, narrative way to play. Popular with kids who love the 'pretend' and community side." },
 
@@ -93,10 +93,10 @@ window.TREND_DATA = {
 
   // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["LankyBox", "CaseOh", "Aphmau"],
+    up:   ["CaseOh", "Nico & Cash", "Aphmau"],
     down: ["Alan Becker (AvM)", "Jelly"],
     new:  []
   },
 
-  headline: "JUL 1 — LAST CHANCE: TikTok Shop Summer Sale ends TOMORROW (Jul 2) — JJ & Mikey and LankyBox (748K+ Shop units, 4.8★) at absolute peak convert window today. Aphmau MeeMeows Litter 7 live at 5 major retailers (Amazon/Walmart/Target/EE/ToyWiz) + 9-variant Carnival Treats line — widest footprint in the line's history. Chip & Milo: Milo plush now restocked and shipping at miloandchip.com. CaseOh (10.6M subs, 2.3B views, zero toy line) remains fastest-rising open slot. Alan Becker cooling with no new ep since May 30. (Mojang/WB/Netflix IP for awareness only.)"
+  headline: "WEEK OF JUN 29 (Jul 2 update) — TikTok Shop Deals For You Days CLOSED TODAY: JJ & Mikey and LankyBox (748K+ Shop units, 4.8★) peak sell-through window is done — review inventory for next show. Nico: The Movie (Roger Allers dir., Seth Rogen/Anna Faris voice cast) confirmed in production — Nico & Cash is the fastest-rising duo bet for H2. CaseOh accelerates to 300K subs/month in June (top 1% on YouTube), 10.6M subs, zero toy line — best open slot. Aphmau MeeMeows Litter 7 Elemental + Carnival Treats at 5+ major retailers. (Mojang/WB IP for awareness only — not merch.)"
 };
