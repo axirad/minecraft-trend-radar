@@ -25,80 +25,80 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-07-05",
-  weeks: ["Jun 1", "Jun 29"],    // week-start labels, oldest -> newest
+  updated: "2026-07-06",
+  weeks: ["Jun 1", "Jun 29", "Jul 6"],    // week-start labels, oldest -> newest
 
   entities: [
     // ---- CREATORS (the "make my skin look like them" names) ----
-    { name: "Aphmau", type: "Creator", subs: 25.9, buzz: [8, 9], interest: [80, 87], rising: true,
-      about: "Aphmau (Jess) is one of the biggest kid-facing Minecraft creators (~25.9M subscribers) with 29.1B+ lifetime views and 257M monthly views as of July 2026. Litter 7 is running TWO concurrent retail SKUs simultaneously: the Carnival Treats 6\" Mystery Plush (ASIN B0DFMSLZ4C) and the Elemental Mystery Mini Figures (ASIN B0FK4J6DSW) — both confirmed at Target and Amazon. MyStreet Season 8 'One Last Time' is in production in 2026, historically spiking MeeMeow sell-through during new episode windows; this is the broadest retail placement in her toy line's history." },
-    { name: "Maizen", type: "Creator", subs: 23, buzz: [9, 9], interest: [78, 85], rising: true,
+    { name: "Aphmau", type: "Creator", subs: 25.9, buzz: [8, 9, 9], interest: [80, 87, 88], rising: true,
+      about: "Aphmau (Jess) is one of the biggest kid-facing Minecraft creators (~25.9M subscribers) with 29.1B+ lifetime views and 257M monthly views as of July 2026. Litter 7 is running TWO concurrent retail SKUs: the Carnival Treats 6\" Mystery Plush (ASIN B0DFMSLZ4C) and the Elemental Mystery Mini Figures (ASIN B0FK4J6DSW) — now confirmed at 9+ major retailers (Amazon, Walmart, Target, Claire's, GameStop, Michaels, BoxLunch, Entertainment Earth, Smyths Toys Superstores), the broadest placement in MeeMeows history. MyStreet Season 8 'One Last Time' is in production in 2026, historically spiking sell-through during new episode windows." },
+    { name: "Maizen", type: "Creator", subs: 23, buzz: [9, 9, 9], interest: [78, 85, 86], rising: true,
       about: "Maizen (22.9M subs per Variety May 2026; 23B+ lifetime views, ranked #1 gaming channel globally) makes story-driven Minecraft skits built around its 'JJ and Mikey' characters. Pocket.watch announced a full global franchise deal: TV series streaming NOW on Tubi, Roku, and Ryan and Friends Plus; Scholastic books (early 2027); Bonkers Toys plush + blind-boxes (Spring 2027). The streaming launch is actively driving new audience discovery — the gap between now and the official retail toy launch is the near-term custom-merch window." },
-    { name: "Mikecrack", type: "Creator", subs: 58, buzz: [7, 7], interest: [72, 71], rising: false,
+    { name: "Mikecrack", type: "Creator", subs: 58, buzz: [7, 7, 7], interest: [72, 71, 71], rising: false,
       about: "Mikecrack is the most-subscribed Spanish YouTuber at ~58.5M subs and is enormous with younger and Spanish-speaking kids. The Los Compas trio (Mikecrack, ElTrollino, Timba VK) book series has sold 31M+ copies worldwide across 10+ titles. His 'Mikecrack y la superarma secreta' live spectacular — an arena show based on his animated series — is actively touring. Strong, recognizable character designs across his recurring cast." },
-    { name: "Jelly", type: "Creator", subs: 23, buzz: [7, 5], interest: [68, 59], rising: false,
+    { name: "Jelly", type: "Creator", subs: 23, buzz: [7, 5, 5], interest: [68, 59, 57], rising: false,
       about: "Jelly is a top kid-friendly Minecraft YouTuber (~23M subs) known for short, easy-to-watch videos. He plays challenges, mini-games and modded worlds, often with friends. Interest continues to soften into July 2026 — no standout new series or hook content has arrested the slide." },
-    { name: "MrBeast Gaming", type: "Creator", subs: 42, buzz: [7, 7], interest: [73, 71], rising: false,
+    { name: "MrBeast Gaming", type: "Creator", subs: 42, buzz: [7, 7, 7], interest: [73, 71, 71], rising: false,
       about: "MrBeast Gaming is the gaming channel of mega-creator MrBeast — whose main channel crossed 500M subscribers on June 12, 2026, a YouTube first. The Gaming sub-channel (~42M subs) leans on big-budget Minecraft challenges, prizes, and spectacle. Less about one character and more about event-style videos kids love." },
-    { name: "SSundee", type: "Creator", subs: 25.4, buzz: [8, 8], interest: [64, 66], rising: true,
-      about: "SSundee (25.4M confirmed subs; 57.7M+ monthly views) is a top US Minecraft creator known for funny commentary and constantly dropping pop-culture characters into mod games. His upbeat, kid-appropriate style and high upload frequency keep him a steady 6–10 favorite — and the best open merch slot on the radar with zero competing official toy line." },
-    { name: "LankyBox", type: "Creator", subs: 42, buzz: [7, 5], interest: [65, 55], rising: false,
-      about: "LankyBox is a high-energy duo with 42M subscribers known for 'brainrot'-style skits using Minecraft skins for chaotic comedy. The channel has been in an unannounced posting hiatus since approximately April 2026 — subscriber growth has flatlined to zero and no new content has appeared. TikTok Shop storefront (748,700+ items sold, 4.8-star) remains live but with no new events or drops announced. Product line includes Foxy, Boxy, Thicc Shark, and Ghosty; also at Target, GameStop, and Amazon. Signal is in deep cooldown — monitor for posting resumption before re-engaging." },
-    { name: "CaseOh", type: "Creator", subs: 10.6, buzz: [7, 8], interest: [63, 68], rising: true,
-      about: "CaseOh has grown to 10.6M YouTube subscribers with 2.3B total views; on Twitch he ranks #8 globally (8.7M followers, ~53K avg. concurrent viewers, +145K new followers in the last 30 days). Known for 'Minecraft BUT…' challenge and reaction content with a big comedic personality — clips spread fast on Shorts and TikTok. Most recent confirmed merch drop at caseohgames.com was March 2026 (apparel-focused; no plush line). Audience skews slightly older (teen), but the brand energy bleeds into the 8–10 demo; no official toy line = open slot." },
-    { name: "EYstreem", type: "Creator", subs: 13.6, buzz: [8, 8], interest: [74, 76], rising: true,
+    { name: "SSundee", type: "Creator", subs: 25.4, buzz: [8, 8, 8], interest: [64, 66, 67], rising: true,
+      about: "SSundee (25.4M confirmed subs) is a top US Minecraft creator known for funny commentary and constantly dropping pop-culture characters into mod games. His July 2026 engagement rate is 2.57% (excellent vs. peers) with consistent upload frequency and steady subscriber growth. His upbeat, kid-appropriate style and high upload frequency keep him a steady 6–10 favorite — and the best open merch slot on the radar with zero competing official toy line." },
+    { name: "LankyBox", type: "Creator", subs: 42, buzz: [7, 5, 4], interest: [65, 55, 50], rising: false,
+      about: "LankyBox is a high-energy duo with 42M subscribers known for 'brainrot'-style skits using Minecraft skins for chaotic comedy. The channel has been in an unannounced posting hiatus since approximately April 2026 — now 3+ months silent with no return signal and subscriber growth flatlined to zero. TikTok Shop storefront (748,700+ items sold, 4.8-star) remains live but with no new events or drops announced. Product line includes Foxy, Boxy, Thicc Shark, and Ghosty; also at Target, GameStop, and Amazon. Signal is in deep cooldown — monitor for posting resumption before re-engaging." },
+    { name: "CaseOh", type: "Creator", subs: 10.6, buzz: [7, 8, 8], interest: [63, 68, 70], rising: true,
+      about: "CaseOh has grown to 10.6M YouTube subscribers and 8.54M Twitch followers. His Casemart merchandise line is a major and growing revenue stream (~$80K–$150K/month across all income); July 2026 engagement rate 2.57% (excellent). Known for 'Minecraft BUT…' challenge and reaction content with a big comedic personality — clips spread fast on Shorts and TikTok. No official toy line exists = open custom slot; audience skews slightly older (teen) but brand energy bleeds into the 8–10 demo." },
+    { name: "EYstreem", type: "Creator", subs: 13.6, buzz: [8, 8, 8], interest: [74, 76, 76], rising: true,
       about: "EYstreem is Australia's most-watched global gaming YouTuber (~13.6M subs). Spawnpoint Media — his production company — now employs 100+ people generating 75–100M views/month across channels. The Milo collectible plush (which sold out in 2 weeks, 4,000 orders, zero paid marketing) is back in stock and shipping at miloandchip.com as of July 2026. Retail footprint remains DTC and Amazon marketplace only; formal retail deals are ramping but no big-box expansion confirmed yet." },
-    { name: "DanTDM", type: "Creator", subs: 29, buzz: [6, 6], interest: [58, 58], rising: false,
+    { name: "DanTDM", type: "Creator", subs: 29, buzz: [6, 6, 6], interest: [58, 58, 58], rising: false,
       about: "DanTDM is a long-running British Minecraft creator (~26M subs) active since 2012. Known for clean, family-friendly Let's Plays and mod showcases. In 2026 he is consulting with Mojang Studios and Merlin Entertainments on a Minecraft World theme-park development. A trusted, evergreen name with the kid audience." },
-    { name: "PrestonPlayz", type: "Creator", subs: null, buzz: [7, 7], interest: [62, 63], rising: true,
-      about: "PrestonPlayz's Bonkers Toys line is fully at retail: Target (March 2026) and Amazon (April 2026) both carry the Mini Mystery Plush, Pleb Slayer light-up sword, and full plush lineup — and the line won a NAPPA Award. He runs a large family of channels and is a familiar name to most kid Minecraft fans. Official retail placement makes this a relevant name for show conversations even as the indie window tightens." },
-    { name: "Dream", type: "Creator", subs: 31.5, buzz: [5, 5], interest: [53, 52], rising: false,
+    { name: "PrestonPlayz", type: "Creator", subs: null, buzz: [7, 7, 7], interest: [62, 63, 63], rising: true,
+      about: "PrestonPlayz's Bonkers Toys line is fully at retail: Target (March 2026) and Amazon (April 2026) both carry the Mini Mystery Plush, Pleb Slayer light-up sword, and full plush lineup — and the line won a NAPPA Award. His family of channels totals 66M combined subscribers and 22B views. Official retail placement makes this a relevant name for show conversations even as the indie window tightens." },
+    { name: "Dream", type: "Creator", subs: 31.5, buzz: [5, 5, 5], interest: [53, 52, 51], rising: false,
       about: "Dream (Clay) is one of the most famous US Minecraft names (~31.5M subs), known for 'Minecraft Manhunt' and speedrun content. His day-to-day Minecraft output has slowed, but the brand and faceless smiley logo are iconic. Recognition stays high even with kids who don't watch regularly." },
-    { name: "Unspeakable", type: "Creator", subs: null, buzz: [5, 5], interest: [51, 50], rising: false,
+    { name: "Unspeakable", type: "Creator", subs: null, buzz: [5, 5, 5], interest: [51, 50, 50], rising: false,
       about: "Unspeakable is a 'loud,' high-energy creator known for challenges, builds and real-life crossovers. The big personality and colorful thumbnails play well with younger viewers. A long-standing staple of the kid-Minecraft scene." },
-    { name: "TommyInnit", type: "Creator", subs: 12, buzz: [5, 5], interest: [49, 49], rising: false,
+    { name: "TommyInnit", type: "Creator", subs: 12, buzz: [5, 5, 5], interest: [49, 49, 48], rising: false,
       about: "TommyInnit is a hugely popular British creator (~12M subs) who rose through Minecraft SMP servers and streams. He shifted to selective content in 2026 ('100 Questions with Tom Simons' interview series, first MC Championship appearance in ~2 years). He skews slightly older-kid/teen." },
-    { name: "Wisp", type: "Creator", subs: null, buzz: [4, 4], interest: [46, 44], rising: false,
+    { name: "Wisp", type: "Creator", subs: null, buzz: [4, 4, 4], interest: [46, 44, 43], rising: false,
       about: "Wisp makes 'wild mod' Minecraft videos that are chaotic, funny and unpredictable. The light-hearted tone keeps it broadly kid-friendly. Good source of meme-y, surprising content." },
-    { name: "Stampy", type: "Creator", subs: null, buzz: [4, 3], interest: [37, 35], rising: false,
+    { name: "Stampy", type: "Creator", subs: null, buzz: [4, 3, 3], interest: [37, 35, 33], rising: false,
       about: "Stampy (Stampy Cat) is the original kid-safe Minecraft creator, voiced as a cheerful cartoon cat. His long-running 'Lovely World' series is wholesome and narrative. A nostalgic classic — more grandparent-familiar than kid-current in 2026." },
-    { name: "Craftee", type: "Creator", subs: 5.2, buzz: [null, 6], interest: [null, 50], rising: false,
+    { name: "Craftee", type: "Creator", subs: 5.2, buzz: [null, 6, 5], interest: [null, 50, 47], rising: false,
       about: "Craftee is a purely Minecraft-focused creator (~5M subs, ~12M monthly views) who appears on every curated 'kid-safe' list — no profanity, challenge and creative gameplay targeting ages 5–10. The craftee.store plush lineup is live: Classic Craftee Plushie ($29.99), a Golden variant, and the Chester character plushie ($26.99) alongside apparel and school supplies. Subscriber growth has slowed to ~10K/month as of July 2026 with no new franchise deals or drops found; existing plush available but momentum is fading." },
 
     // ---- FAN / ANIMATION CHARACTERS (merch-eligible — NOT Mojang's mobs) ----
     // Animated character duos — extremely high recognition w/ 6-10 y/o; CONFIRMED top sellers at Red Lava Toys shows.
-    { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [10, 10], interest: [96, 97], rising: true,
+    { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [10, 10, 10], interest: [96, 97, 98], rising: true,
       about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — the JJ & Mikey TV series is streaming NOW on Tubi, Roku, and Ryan and Friends Plus (Summer 2026), actively driving new audience discovery. The official Bonkers Toys plush + blind-boxes don't hit major retailers until Spring 2027 — the gap is the near-term custom-merch opportunity. A single 'Johnny Minecraft Plush' listing previously crossed 171,600 units sold on TikTok Shop; Etsy third-party sellers are actively filling the gap. Confirmed #1 top sellers at Red Lava Toys shows." },
-    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [10, 9], interest: [90, 86], rising: true,
+    { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [10, 9, 9], interest: [90, 86, 85], rising: true,
       about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel at ~11M subscribers, Nico at ~4.9M and climbing. Official merch at cashandnico.com (Nico Superhero, Cash Superhero, and Shady plushies, plus shirts, stickers, and comics); confirmed strong demand at Red Lava Toys shows. A 'Nico: The Movie' theatrical project circulates in fan wikis but has not been confirmed by any trade publication (Variety/Deadline) as of July 2026 — treat as audience excitement until a signed deal is announced. Channels remain active and the merch slot is open." },
-    { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9, 8], interest: [85, 83], rising: true,
+    { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9, 8, 8], interest: [85, 83, 83], rising: true,
       about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs on the animation channel). The Milo collectible plush — which sold out in 2 weeks (4,000 orders, zero paid marketing) — is back in stock and now shipping at miloandchip.com as of July 2026. The Elemental Milo & Chip skin pack launched May 2026; T-shirts, stickers, and water bottles also available. Retail footprint remains DTC/Amazon only with no big-box expansion confirmed yet; niche but loyal following." },
-    { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.6, buzz: [8, 8], interest: [70, 77], rising: true,
-      about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (33.6M subs, 9.6B+ views). AvM Shorts Season 5 is actively running; Ep 39 'The Aether' released April 18, 2026 with Ep 40 in progress — the channel is among the fastest-growing animation channels on YouTube. These are entirely Becker's own original characters, not Mojang IP. Merch available only through alanbecker.shop (plushies, apparel) and Youtooz blind boxes — zero mass-retail presence despite 33M+ subscribers, making this the most under-served retail white space in creator-Minecraft merch right now." },
+    { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.6, buzz: [8, 8, 8], interest: [70, 77, 78], rising: true,
+      about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (33.6M subs, 9.6B+ views). AvM Shorts Season 5 is actively running; Ep 39 'The Aether' released April 18, 2026 with Ep 40 (Red & Blue duo episode) confirmed incoming — fan anticipation is building. These are entirely Becker's own original characters, not Mojang IP. Merch available only through alanbecker.shop (plushies, apparel) and Youtooz blind boxes — zero mass-retail presence despite 33M+ subscribers, making this the most under-served retail white space in creator-Minecraft merch right now." },
 
     // ---- FORMATS / TOPICS (what kind of videos they're glued to) ----
-    { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7, 7], interest: [61, 62], rising: false,
+    { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7, 7, 7], interest: [61, 62, 62], rising: false,
       about: "'Minecraft BUT…' is a dominant format where a normal playthrough is twisted by one wild rule or mod (e.g. 'Minecraft BUT everything is giant'). It's build/challenge/reaction content that's endlessly remixable. CaseOh's Hardcore format is the current evolution of this template." },
-    { name: "Brainrot skits", type: "Format", subs: null, buzz: [7, 6], interest: [63, 60], rising: true,
-      about: "'Brainrot' skits are chaotic, sensory-overload short videos that use Minecraft skins to act out absurd stories. LankyBox's TikTok Shop confirmed 748K+ items sold — this audience converts directly to buyers at high volume. With LankyBox in a posting hiatus since ~April 2026 the primary signal driver for this format is quiet; the format itself remains popular across other channels but overall signal is cooling. Fast, loud and meme-driven — controversial with parents, irresistible to kids." },
-    { name: "Roleplay servers", type: "Format", subs: null, buzz: [5, 5], interest: [46, 48], rising: true,
+    { name: "Brainrot skits", type: "Format", subs: null, buzz: [7, 6, 5], interest: [63, 60, 58], rising: false,
+      about: "'Brainrot' skits are chaotic, sensory-overload short videos that use Minecraft skins to act out absurd stories. LankyBox's TikTok Shop confirmed 748K+ items sold — this audience converts directly to buyers at high volume. With LankyBox in a posting hiatus now 3+ months and no return signal, the primary signal driver for this format remains quiet and the trend is cooling. Fast, loud and meme-driven — controversial with parents, irresistible to kids." },
+    { name: "Roleplay servers", type: "Format", subs: null, buzz: [5, 5, 5], interest: [46, 48, 49], rising: true,
       about: "Minecraft roleplay (RP) servers are fictional worlds with their own economies, governments and ongoing storylines where players act out characters. They're growing fast as a social, narrative way to play. Popular with kids who love the 'pretend' and community side." },
 
     // ---- MOJANG IP — official game content (CUSTOMER AWARENESS ONLY, not merch) ----
-    { name: "Baby mobs (Tiny Takeover)", type: "Character/Mob", ip: "mojang", subs: null, buzz: [4, 4], interest: [50, 43], rising: false,
+    { name: "Baby mobs (Tiny Takeover)", type: "Character/Mob", ip: "mojang", subs: null, buzz: [4, 4, 3], interest: [50, 43, 40], rising: false,
       about: "The March 2026 'Tiny Takeover' drop redesigned every baby farm animal — puppies, kittens, piglets, calves, chicks, lambs, ocelots and bunnies — for maximum cuteness. Now ~4 months post-launch the initial viral wave has fully settled. Official Mojang content: great to know about for customer chats, but NOT something Red Lava Toys can make merch of." },
-    { name: "Sulfur cube", type: "Character/Mob", ip: "mojang", subs: null, buzz: [6, 6], interest: [54, 55], rising: true,
+    { name: "Sulfur cube", type: "Character/Mob", ip: "mojang", subs: null, buzz: [6, 6, 6], interest: [54, 55, 55], rising: true,
       about: "The sulfur cube is a Minecraft mob that can absorb blocks — a mechanic unlike anything else in the game, driving lots of reaction/explainer videos. Official Mojang content: worth knowing for customer conversations, but not merch-eligible for Red Lava Toys." },
-    { name: "A Minecraft Movie", type: "Format", ip: "mojang", subs: null, buzz: [6, 7], interest: [62, 68], rising: true,
-      about: "The live-action/animated Warner Bros. film (April 2025) continues to drive streaming discovery in summer 2026; the Minecraft Summer Sale (June 30–July 28) on minecraft.net adds platform-level discoverability. Sequel 'A Minecraft Movie Squared' confirmed for July 23, 2027 (full original cast returning, Kirsten Dunst newly added, filming underway in New Zealand). Mojang/WB IP — strong customer-conversation context, not merch-eligible for Red Lava Toys." }
+    { name: "A Minecraft Movie", type: "Format", ip: "mojang", subs: null, buzz: [6, 7, 8], interest: [62, 68, 70], rising: true,
+      about: "The live-action/animated Warner Bros. film (April 2025) continues to drive streaming discovery; the Minecraft Summer Sale (June 30–July 28, 2026) on minecraft.net adds platform-level discoverability through end of July. Sequel 'A Minecraft Movie Squared' is filming in New Zealand now (Momoa, Black, Brooks, Berry, Coolidge all returning + Kirsten Dunst as Alex); release date July 23, 2027. Mojang/WB IP — strong customer-conversation context, not merch-eligible for Red Lava Toys." }
   ],
 
   // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["Aphmau", "Alan Becker (AvM)", "CaseOh"],
-    down: ["LankyBox", "Jelly", "Craftee"],
+    up:   ["Aphmau", "CaseOh", "Alan Becker (AvM)"],
+    down: ["LankyBox", "Craftee", "Jelly"],
     new:  []
   },
 
-  headline: "WEEK OF JUN 29 (Jul 5 refine) — JJ & Mikey TV series streaming NOW on Tubi/Roku/Ryan & Friends+: Bonkers Toys line not until Spring 2027 — custom-merch gap is fully open. Aphmau running TWO concurrent Litter 7 SKUs (Carnival Treats + Elemental) across Target/Amazon. Alan Becker AvM Season 5 (Ep 39 Apr 2026, Ep 40 pending) — still the biggest mass-retail white space in creator Minecraft. LankyBox: 3-month posting hiatus + zero sub growth — deep downgrade. 'Nico: The Movie' theatrical claim unverified (fan wiki only, no trade press) — removed from H2 bet framing. Craftee declining velocity (10K subs/mo). (Mojang/WB IP for awareness only — not merch.)"
+  headline: "WEEK OF JUL 6 — JJ & Mikey streaming NOW on Tubi/Roku/Ryan+: Bonkers Toys still Spring 2027, custom-merch gap fully open. Aphmau Litter 7 now at 9+ retailers (Walmart + Claire's + Smyths added to prior list) — broadest MeeMeows footprint ever, both SKUs in active sell-through. CaseOh Casemart growing (no competing toy line): #1 open custom slot for the slightly-older fan. Alan Becker AvM Ep 40 incoming (Red & Blue duo, anticipation building) — 33.6M subs, still zero mass retail. LankyBox: 3+ month posting hiatus, no return signal, buzz downgraded again. (Mojang/WB IP for awareness only — not merch.)"
 };
