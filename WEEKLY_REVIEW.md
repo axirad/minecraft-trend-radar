@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Jul 20, 2026
+
+**Top merch opportunity:** Alan Becker / Animation vs. Minecraft — "Animation vs. Geometry Dash" dropped July 18 and the reaction wave is live as of July 19+. Fan analysis, reaction, and fan-art content is flooding TikTok and Shorts; the tied-in in-game Geometry Dash level (Wicked VIP, Insane / 8-star) is sustaining player engagement alongside the video. 33.6M subscribers, Youtooz supply-constrained with eBay secondary market active, and zero mass-retail toy deal — largest uncontested white space in creator-Minecraft merch, with the spike peaking this week.
+
+**Rising:** Aphmau's four concurrent blind-box waves (Carnival Treats, Elemental MeeMeow, Celestial Cats, MeeMeows Collectors Case) are hitting summer peak at 9+ retailers (Amazon, Walmart, Target, Claire's, GameStop, Michaels, BoxLunch, Entertainment Earth, Smyths) — interest ticks to 90, the highest tracked, and the best moment of the year for complementary custom merch alongside her aesthetic. CaseOh continues steady acceleration (+100K subs/week, 2.07% monthly growth, Kitty merch drop still active at caseohgames.com) with zero official toy competition. Chip & Milo interest reaches 94 — Milo plush actively shipping at miloandchip.com (DTC/Amazon only, no big-box competition). JJ & Mikey TV series enters week 3 on Tubi/Roku — Bonkers Spring 2027 retail gap fully open.
+
+**Cooling:** Craftee hits its 6th consecutive declining week (interest 23→18) — no franchise deals, retail expansion, or drops detected; firmly catalog-only. Jelly's slow six-month slide continues (interest 39→36). Brainrot skits keep collapsing (interest 27→22) — LankyBox is now 18+ weeks silent with no replacement creator emerging.
+
+**New to watch:** No new merch-eligible name emerged this week. Netflix Minecraft Series (Mojang IP — not merch) is 11 days into streaming; no character names revealed in wide press and no Netflix Top 10 appearance confirmed — monitor for first chart entry. A Minecraft Movie Squared (Jul 23, 2027, Mojang IP) officially announced with Kirsten Dunst as Alex — sequel hype building, not merch.
+
+**Make this next:** Alan Becker stick-figure sticker sheet — six characters (The Second Coming, King Orange, Yellow, Green, Blue, Red), instantly color-coded and recognizable to the 33M+ subscriber fan base. The reaction wave from "Animation vs. Geometry Dash" is peaking right now; Youtooz is supply-constrained; zero mass-retailer carries AvM product. A 6-character sticker sheet at $5–8 or individual die-cuts at $2–3 is a natural show-table impulse item that rides the current spike — and the newsletter-teased upcoming AvM Minecraft episode (Red & Blue) provides a second wave moment ahead.
+
+---
+
 ## Week of Jul 13, 2026
 
 **Top merch opportunity:** Alan Becker / Animation vs. Minecraft — 33.6M subscribers, "The Machine" AvA13 has been pulling consistent views and fan discovery for 7 weeks post-release, and the entire color-coded stick-figure roster (The Second Coming, King Orange, Yellow, Green, Blue, Red, Dark Lord) still has zero mass-retail toy deal. TikTok's "Where to Buy Alan Becker Plushies" is an active discover page — fan demand is documenting itself in search. Youtooz blind-box is limited/sold-out signals with eBay resale activity. Biggest uncontested white space on the board for any creator above 30M subscribers.
