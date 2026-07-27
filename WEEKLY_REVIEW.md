@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Jul 27, 2026
+
+**Top merch opportunity:** Aphmau — the August 2026 nationwide retail launch is arriving NOW. Bonkers Toys debuted the new Aphmau line at SDCC (July 23–26) featuring MyStreet Classic Plushes (Aphmau Cat, Garroth Cat, Travis Cat), MyStreet MeeMeow Collector Figures (8 mystery cats), and the Cat Café Surprise Set (17-piece display playset). Nationwide retail hits August, stacking the MyStreet line on top of four concurrent MeeMeows waves already at 9+ retailers — this is the highest custom merch opportunity of the year, and the window is open before shelf saturation arrives.
+
+**Rising:** Yarik Paw records the biggest interest-point gain this week (+5, now 62) — 2.9B lifetime views confirmed and his YarikPawShorts channel hit 500M views in just 75 days; no toy deal exists yet, making this a watch-and-design moment. OMZ launched a "new member" narrative arc this week, sustaining roleplay format interest (now 67 and rising). Alan Becker's AvM Shorts Episode 40 (Red & Blue) is anticipated for August 2026 per the fandom wiki — anticipation is actively building while the AvG wave (July 18 release) settles after nine days; interest holds at 97 with zero mass-retail competition. JJ & Mikey enters week five on Tubi/Roku/Ryan and Friends Plus with Pocket.watch's Scholastic 2027 books and Bonkers Spring 2027 toys confirmed — custom gap wide open. Chip & Milo ticks to interest 95, Milo plush confirmed "back and shipping" at miloandchip.com.
+
+**Cooling:** Jelly's seven-month slide continues (interest now 27). Brainrot skits and Craftee both hit new lows — LankyBox is 20+ weeks silent and no replacement has emerged for the brainrot format.
+
+**New to watch:** Nothing new added to the roster this week. Continue monitoring Yarik Paw for a first merch deal announcement — the character roster, 2.9B views, and exceptional short-form reach make it the clearest unannounced white space on the board.
+
+**Make this next:** Alan Becker six-character sticker sheet — The Second Coming, King Orange, Yellow, Green, Blue, Red — laser-cut die cuts at $2–3 each or as a set for $8–10. The community is in a build-up phase for Episode 40 (Red & Blue confirmed); the AvG release keeps the fan base warm; and 33M+ subscribers with zero mass-retail presence means every show table sale is uncontested. Have the artwork ready before the episode drops in August.
+
+---
+
 ## Week of Jul 20, 2026
 
 **Top merch opportunity:** Alan Becker / Animation vs. Minecraft — "Animation vs. Geometry Dash" dropped July 18 and the reaction wave is live as of July 19+. Fan analysis, reaction, and fan-art content is flooding TikTok and Shorts; the tied-in in-game Geometry Dash level (Wicked VIP, Insane / 8-star) is sustaining player engagement alongside the video. 33.6M subscribers, Youtooz supply-constrained with eBay secondary market active, and zero mass-retail toy deal — largest uncontested white space in creator-Minecraft merch, with the spike peaking this week.
