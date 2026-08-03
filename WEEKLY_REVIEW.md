@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Aug 3, 2026
+
+**Top merch opportunity:** Alan Becker (AvM) — Episode 40 (Red & Blue) is still unreleased as of August 3 and is now past-due on the monthly cadence, which means the drop moment is imminent and will be large. 33.8M subscribers, ~113M views/month, and zero mass-retail toy presence make this the clearest uncontested white-space on the board. A six-character die-cut sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) at $2–3 per cut or $8–10 as a set must be ready to sell the moment the episode lands.
+
+**Rising:** SSundee reaches interest 86, its highest tracked reading ever — nine consecutive weeks of upward movement on the Crundee series with no official toy competition; still the strongest steady open US-creator slot. OMZ climbs to interest 83 on the "new member" arc, sustaining the roleplay-server format (now at 73, the strongest rising format on the board). Yarik Paw holds at 73, buoyed by continued PR echo of 2.9B views and the 500M Shorts-in-75-days milestone — still no toy deal, still open white space. Maizen ticks to interest 95 as JJ & Mikey plushies return to stock at maizen.junipercreates.com and Hulu streaming enters week three. Aphmau peaks at interest 100 on the retail launch week (Walmart + Amazon fully live).
+
+**Cooling:** Dream falls to 31 (was 38), TommyInnit to 16 (was 24), Wisp to 15 (was 23) — all catalog names drifting with no recovery signals. Jelly slides to 12 (was 20), now ten months into an unbroken decline. Brainrot skits settle at 4 (near-floor). A Minecraft Movie Summer Sale ended July 28 and interest cools to 62 (Mojang IP — context only).
+
+**New to watch:** No new merch-eligible name added this week. Zhong (Russian-Chinese creator, 67M+ subs, 100M+ YouTube views/week in 2026) is surfacing in Minecraft coverage round-ups but makes general skit/reaction content without a defined Minecraft character roster — monitoring, but not radar-worthy until a character IP emerges.
+
+**Make this next:** Alan Becker six-character sticker sheet — The Second Coming, King Orange, Yellow, Green, Blue, Red — die-cut at $2–3 each or $8–10 as a set. Episode 40 (Red & Blue confirmed) is the most-anticipated unreleased episode in the AvM community. Every day it doesn't drop is another day of building anticipation, and when it releases the fan spike will be the single biggest short-form merch moment of 2026. Artwork must be print-ready before the video publishes, not after.
+
+---
+
 ## Week of Jul 27, 2026
 
 **Top merch opportunity:** Aphmau — the August 2026 nationwide retail launch is arriving NOW. Bonkers Toys debuted the new Aphmau line at SDCC (July 23–26) featuring MyStreet Classic Plushes (Aphmau Cat, Garroth Cat, Travis Cat), MyStreet MeeMeow Collector Figures (8 mystery cats), and the Cat Café Surprise Set (17-piece display playset). Nationwide retail hits August, stacking the MyStreet line on top of four concurrent MeeMeows waves already at 9+ retailers — this is the highest custom merch opportunity of the year, and the window is open before shelf saturation arrives.
