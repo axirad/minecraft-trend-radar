@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Aug 10, 2026
+
+**Top merch opportunity:** Alan Becker (AvM) — Episode 40 (Red & Blue) has now gone 17+ weeks unreleased since Episode 39 (April 18), and the AvM fandom wiki confirms it is "presumably being released in August 2026." Community anticipation has pushed Alan Becker's interest to 100 for the first time in this tracker. The drop is imminent — this is the biggest single-video merch spike moment of the year for an IP with 33.8M subscribers and zero mass-retail toy presence. A six-character die-cut sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) must be print-ready before the video publishes.
+
+**Rising:** SSundee hits interest 96, a new all-time high and the 14th consecutive weekly gain — Crundee Craft remains actively live, zero official toy line means every show-table sale is uncontested. Chip & Milo climbs to interest 99 as the Milo plush sell-out cycle continues and Spawnpoint Media's active brand-deal search (confirmed in June 2026 Tubefilter feature) signals an announcement could come any time. OMZ ticks to 87 as the new-member arc drives engagement rather than disrupting it. Maizen climbs to 98 on a critical development: the official Juniper JJ & Mikey plushies launched ahead of the announced Aug 23 date — Mikey Turtle Plush is already SOLD OUT at maizen.junipercreates.com (JJ Rabbit still shipping), with the limited window closing September 15. Sell-outs are the strongest demand signal; this is the custom-merch window.
+
+**Cooling:** Dream falls to interest 14 (was 19), TommyInnit to 5 (was 8), Wisp to 5 (was 7) — all catalog names drifting with no new hook. Jelly slides to 3, approaching floor after nearly a year of unbroken decline. Netflix Minecraft Series (Mojang IP — context only) hits 7+ weeks post-launch with no Netflix Top 10 appearance and no character names in wide press; interest drops to 40. A Minecraft Movie cools to 43.
+
+**New to watch:** No new merch-eligible entities added this week. Minecraft Dungeons II (Mojang IP — not merch) is now 49 days from its confirmed September 28, 2026 release — interest climbing to 95; the new hero characters (Kellen, Ren, Flores, Valorie) may drive custom-skin demand in the launch window.
+
+**Make this next:** Alan Becker six-character sticker sheet — The Second Coming, King Orange, Yellow, Green, Blue, Red — die-cut at $2–3 each or $8–10 as a set. Interest just hit 100, community anticipation is at its highest ever, and the episode could drop any day. The rule is simple: artwork ready BEFORE the video publishes, not after. Every day it doesn't land is another day of building hype that Red Lava Toys can sell into the moment it breaks.
+
+---
+
 ## Week of Aug 3, 2026
 
 **Top merch opportunity:** Alan Becker (AvM) — Episode 40 (Red & Blue) is still unreleased as of August 3 and is now past-due on the monthly cadence, which means the drop moment is imminent and will be large. 33.8M subscribers, ~113M views/month, and zero mass-retail toy presence make this the clearest uncontested white-space on the board. A six-character die-cut sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) at $2–3 per cut or $8–10 as a set must be ready to sell the moment the episode lands.
