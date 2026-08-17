@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Aug 17, 2026
+
+**Top merch opportunity:** Alan Becker (AvM) — Episode 40 (Red & Blue) is now 122 days (17+ weeks) unreleased since Episode 39 (April 18), and the August newsletter confirms "production going great" with a teaser of Red and Blue running into a village at sunset. The 3rd Annual Popularity Poll runs August 4 – September 4 and will surface which character designs command the most current fan enthusiasm. Interest holds at 100 with 33.9M subscribers and zero mass-retail toy presence — the six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) must be print-ready *before* the episode drops. Every day of delay is sales left on the table the moment it publishes.
+
+**Rising:** SSundee hits interest 99, a new all-time high and the 17th consecutive weekly gain — Crundee (Pixelmon S1 + Sky Factory) fully live, 4 uploads/week, zero official toy line competition. EYstreem climbs to 93 as Chip & Milo interest reaches 100 for the first time in this tracker — the Milo plush first run generated 4,000 orders with no paid marketing; sell-out urgency messaging is live again and LEGO and Lacoste are confirmed brand partners while the big-box retail slot remains open. OMZ reaches 93, 9th consecutive week of gains, with Squish Plushies expanding on Amazon and Walmart while core bundles stay sold out. Nico & Cash ticks to 93 on steady Amazon velocity (2,000+ units/month) and a new June 2026 skate toy line at cashandnico.com. Maizen climbs to 99 as the Juniper store confirms Carrie Cat + Maizen Bundle sold out while JJ Rabbit, Mikey Turtle, and Banana Kid remain in stock at $34.99 — the demand profile is widening across the cast.
+
+**Cooling:** DanTDM falls to 28 (from 36) — the steepest single-week drop this tracker has logged for him; still consulting on the Minecraft World theme park but generating no kid-audience interest. Dream slips to 7 (approaching floor), Unspeakable to 37 (slow drift). TommyInnit and Wisp are both at 2, near floor with no recovery signals.
+
+**New to watch:** No new merch-eligible creator emerged this week. Minecraft Dungeons II (Mojang IP — not merch) hits interest 100 with Gamescom 9 days out (Aug 26–30) — the first-ever public playable demo will generate a press-coverage wave; new hero characters Kellen, Ren, Flores, and Valorie may drive custom-skin demand in the October launch window. Netflix Minecraft Series (Mojang IP) at 8 weeks post-premiere with no Netflix Top 10 entry, no character names in wide press, and interest at 12 — soft launch that has not culturally broken through; no merch path.
+
+**Make this next:** Alan Becker six-character sticker sheet — The Second Coming, King Orange, Yellow, Green, Blue, Red — die-cut at $2–3 each or $8–10 as a set. The 3rd Annual Poll will confirm which characters have the highest current fan enthusiasm right now. Episode 40 (Red & Blue confirmed) has been anticipated so long that the release will spike searches and sales instantly. The rule has not changed: artwork ready before the video publishes, not after.
+
+---
+
 ## Week of Aug 10, 2026
 
 **Top merch opportunity:** Alan Becker (AvM) — Episode 40 (Red & Blue) has now gone 17+ weeks unreleased since Episode 39 (April 18), and the AvM fandom wiki confirms it is "presumably being released in August 2026." Community anticipation has pushed Alan Becker's interest to 100 for the first time in this tracker. The drop is imminent — this is the biggest single-video merch spike moment of the year for an IP with 33.8M subscribers and zero mass-retail toy presence. A six-character die-cut sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) must be print-ready before the video publishes.
