@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Aug 24, 2026
+
+**Top merch opportunity:** The Maizen JJ & Mikey Juniper drop went live August 23 — JJ Rabbit Plush ($34.99), Mikey Turtle Plush ($34.99), and T-Shirt ($29.99) at maizen.hellojuniper.com, available until September 15 only (22 days remaining as of today). With official Bonkers Toys not landing until Spring 2027, this window is the clearest custom-merch demand signal of the week — kids buying the $34.99 official plushes at the table are the same buyers who pick up a $4–6 sticker set. The Juniper sell-through on Carrie Cat (sold out) confirms the full cast is in demand, not just the leads.
+
+**Rising:** SSundee hits interest 100 for the first time — a new all-time high and the 20th consecutive weekly gain; Crundee Craft (Pixelmon S1 + Sky Factory with Crainer) remains fully active at ~4 uploads/week; zero official toy line = strongest open US-creator custom slot on the board. EYstreem climbs to interest 96 as Chip & Milo holds at 100 — Milo plush restocked, Chip on pre-order with first run never shipped; no big-box deal despite SpongeBob-scale watch data, making it the most underserved IP on the tracker. OMZ ticks to interest 95 as the roleplay-server format itself reaches 90, a new high for that category. Nico & Cash at 95, steady Amazon velocity and Youtooz collab depth.
+
+**Cooling:** DanTDM falls to interest 6 (from 14) — the steepest single-week drop this tracker has logged for him; still consulting on the Minecraft World theme park but generating zero kid-audience interest; catalog-only with no recovery signal. Dream drops to 2, approaching absolute floor. Unspeakable slides to 25, slow unbroken drift. MrBeast Gaming at 52, continuing its gradual decline as audience attention migrates to newer formats.
+
+**New to watch:** No new merch-eligible creator emerged this week. Alan Becker Episode 40 (Red & Blue-focused) remains unreleased at 133 days (19 weeks) since Episode 39 — now the longest gap in the AVM Shorts series. The 3rd Annual Popularity Poll (Aug 4–Sep 4) closes in 11 days; poll results will confirm which character designs command the most current fan enthusiasm — use them to prioritize the sticker sheet. Minecraft Dungeons II (Mojang IP — not merch) Gamescom playable demo opens in 2 days (Aug 26–30); press hands-on coverage wave will generate a wave of Minecraft-adjacent attention with 36 days to launch.
+
+**Make this next:** JJ & Mikey complementary custom sticker or accessory pack — 4–6 sticker set at $4–6, in hand for the 22-day Juniper window (closes Sep 15). The official plushes prove these characters sell at $34.99; a sticker set is a no-brainer impulse add-on at the same show table. After the Juniper window closes, pivot immediately to Alan Becker six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) — Episode 40's release will be the single largest short-form merch spike moment of 2026, and artwork must be ready before the video lands.
+
+---
+
 ## Week of Aug 17, 2026
 
 **Top merch opportunity:** Alan Becker (AvM) — Episode 40 (Red & Blue) is now 122 days (17+ weeks) unreleased since Episode 39 (April 18), and the August newsletter confirms "production going great" with a teaser of Red and Blue running into a village at sunset. The 3rd Annual Popularity Poll runs August 4 – September 4 and will surface which character designs command the most current fan enthusiasm. Interest holds at 100 with 33.9M subscribers and zero mass-retail toy presence — the six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) must be print-ready *before* the episode drops. Every day of delay is sales left on the table the moment it publishes.
