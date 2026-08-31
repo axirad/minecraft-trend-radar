@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Aug 31, 2026
+
+**Top merch opportunity:** JJ & Mikey Juniper window is in its final 15 days — closes September 15. JJ Rabbit Plush ($34.99) and Mikey Turtle Plush ($34.99) are back in stock, Carrie Cat remains sold out. Official Bonkers Toys doesn't land until Spring 2027, leaving a clear custom-merch runway. A 4–6 sticker set or accessory pack at $4–6 is the highest-velocity impulse add-on Red Lava Toys can have on the show table right now while official demand is actively signaling.
+
+**Rising:** EYstreem hits interest 100 this week — joining SSundee (100 for a second consecutive week, 21st straight weekly gain), Chip & Milo (100), JJ & Mikey (100), and Alan Becker (100) at the tracker's peak tier. Chip plush pre-order live, Milo restocked; no big-box deal = still the single most underserved IP on the board. OMZ climbs to 97 as the Omz & Roxy Bundle on Amazon drives expanding retail; core Squish bundle still sold out. PrestonPlayz ticks to 91 on steady Bonkers shelf presence at Target and Amazon. Roleplay servers format reaches 94, a new all-time high for the category — OMZ is its commercial engine.
+
+**Cooling:** MrBeast Gaming drops to 34 — the steepest single-week decline this tracker has logged for the channel (57→42→34), as audience migration to newer formats accelerates. Unspeakable slides to 12, slow unbroken drift. DanTDM reaches 2 (down from 3), continuing the steepest run this tracker has recorded for him (36→14→3→2); consulting on the Minecraft World theme park but generating zero kid-audience interest.
+
+**New to watch:** No new merch-eligible creator emerged this week. Alan Becker Episode 40 (Red & Blue) remains unreleased at 20 weeks since Episode 39 (April 18) — the 3rd Annual Popularity Poll closes September 4 (4 days from now); poll results will confirm which character designs command the highest current fan enthusiasm and should guide sticker-sheet priorities. Minecraft Dungeons II (Mojang IP — not merch) Gamescom concluded August 30; press hands-on coverage embargo lifts September 1, and launch is 29 days away.
+
+**Make this next:** JJ & Mikey custom sticker or accessory pack — 4–6 sticker set at $4–6 — in hand before the Juniper window closes September 15. The official $34.99 plushes prove the full cast is in demand; a sticker set is the natural impulse add-on at the same show table and is uncontested by official product. After the Juniper window closes on Sep 15, pivot immediately to Alan Becker six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) — Episode 40 will be the single largest short-form merch spike of 2026, and the poll closing Sep 4 will give you the exact character rank order to design toward.
+
+---
+
 ## Week of Aug 24, 2026
 
 **Top merch opportunity:** The Maizen JJ & Mikey Juniper drop went live August 23 — JJ Rabbit Plush ($34.99), Mikey Turtle Plush ($34.99), and T-Shirt ($29.99) at maizen.hellojuniper.com, available until September 15 only (22 days remaining as of today). With official Bonkers Toys not landing until Spring 2027, this window is the clearest custom-merch demand signal of the week — kids buying the $34.99 official plushes at the table are the same buyers who pick up a $4–6 sticker set. The Juniper sell-through on Carrie Cat (sold out) confirms the full cast is in demand, not just the leads.
