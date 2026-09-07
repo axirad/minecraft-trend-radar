@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Sep 7, 2026
+
+**Top merch opportunity:** Alan Becker (AvM) Episode 40 "Creeper Clan" (released Aug 29) is now into its second full week — the reaction wave is confirmed and building on YouTube and TikTok, with multiple reaction channels active and fan enthusiasm at peak. The 3rd Annual Popularity Poll closed September 4 and results are now live, confirming the exact character-demand ranking to design toward. With 33.9M subscribers, zero mass-retail toy presence, and a once-per-year episode drop moment still unfolding, the six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) is the single highest-urgency print this week — artwork that isn't ready now misses the wave entirely.
+
+**Rising:** OMZ ticks to interest 98 (new high) as the RP-server format hits 95, also a new all-time high — both driven by the Crew's ongoing narrative arc and Amazon bundle sell-through. Nico & Cash reaches 98 as all three Youtooz plushies (Cash, Nico, Meebo) remain sold out on Youtooz.com, a strong secondary-demand signal. PrestonPlayz edges to 92 on steady Bonkers shelf presence. SSundee holds at 100 for a third consecutive week — Crundee active, zero official toy line, 22nd straight weekly gain. EYstreem holds at 100 as the Chip Second PRE-ORDER for October confirms a repeat demand cycle; Chip & Milo remains the single most underserved IP by watch-time with no big-box deal yet.
+
+**Cooling:** MrBeast Gaming drops to 26, down from 57 just six weeks ago — the steepest sustained decline on the tracker; audience migration to newer formats is accelerating. Unspeakable slides to 9, slow unbroken drift. No other notable declines this week as the top tier (Aphmau, Maizen, SSundee, Alan Becker, Chip & Milo, JJ & Mikey) is locked at or near peak.
+
+**New to watch:** No new merch-eligible creator emerged this week. Minecraft Dungeons II (Mojang IP — not merch) is 22 days from launch (Sep 29); Gamescom hands-on coverage is into its second week and Mattel plush + LEGO 21591 are live at retail — strong Mojang-IP awareness context for show conversations.
+
+**Make this next:** Alan Becker six-character sticker sheet — The Second Coming, King Orange, Yellow, Green, Blue, Red — die-cut, print-ready, in hand this week. Episode 40 reaction window is peaking NOW and the Popularity Poll results give the exact character rank order. This is the highest-return single print in 2026 creator-Minecraft merch and the window is open today. Parallel priority: JJ & Mikey custom sticker or accessory pack before the Juniper window closes September 15 (8 days) — the $34.99 official plushes prove full-cast demand; a $4–6 sticker set is the natural impulse add-on at the same show table, uncontested by any official product.
+
+---
+
 ## Week of Aug 31, 2026
 
 **Top merch opportunity:** JJ & Mikey Juniper window is in its final 15 days — closes September 15. JJ Rabbit Plush ($34.99) and Mikey Turtle Plush ($34.99) are back in stock, Carrie Cat remains sold out. Official Bonkers Toys doesn't land until Spring 2027, leaving a clear custom-merch runway. A 4–6 sticker set or accessory pack at $4–6 is the highest-velocity impulse add-on Red Lava Toys can have on the show table right now while official demand is actively signaling.
