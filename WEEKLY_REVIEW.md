@@ -2,6 +2,20 @@
 
 ---
 
+## Week of Sep 14, 2026
+
+**Top merch opportunity:** Alan Becker (AvM) Episode 40 "Creeper Clan" (released Aug 29) is now in its third full week — the reaction wave is confirmed sustaining on YouTube and TikTok, with Alan Becker's dedicated Creeper Clan playlist holding 2.6M TikTok followers and reaction video titles like "THIS ALAN BECKER VIDEO ACTUALLY TRAUMATIZED ME BRO" still pulling engagement. The 3rd Annual Popularity Poll results are live — The Second Coming #1 (254K votes), Red #2 (176K votes) — giving the exact character-rank order for print priorities. With 33.9M+ subscribers, zero mass-retail toy presence, and the reaction wave still live, the six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) must be in hand this week. Every day the artwork isn't ready is sales left on the table.
+
+**Rising:** SSundee launches SkyFactory Season 7 with Crainer on September 13 — a fresh series catalyst extending the Crundee streak to its 23rd consecutive week at interest 100; zero official toy line makes SSundee the strongest open US-creator custom merch slot on the board. OMZ ticks to interest 99 (new high) on 54M+ monthly views and continued Amazon bundle sell-through. Nico & Cash reaches interest 99 (new high) as all three Youtooz plushies (Cash, Nico, Meebo) remain sold out — a sustained secondary-demand signal now running six+ weeks. PrestonPlayz edges to 93 on steady Bonkers shelf presence at Target and Amazon.
+
+**Cooling:** MrBeast Gaming drops to interest 12 (buzz 4) — down from 73 at the start of this tracker's run; the steepest sustained decline on the board with no recovery signal. Unspeakable slides to interest 4, approaching floor. The Juniper JJ & Mikey window closed September 15 — the Last Call campaign confirmed full-cast demand (Carrie Cat sold out; JJ Rabbit and Mikey Turtle on sale up to close); the custom Bonkers gap is now wide open through Holiday 2026 and into Spring 2027.
+
+**New to watch:** No new merch-eligible creator emerged this week. Minecraft Dungeons II (Mojang IP — not merch) launches September 29, 15 days away — Sulfur cube interest is at 88 and accelerating pre-launch, good customer-conversation context. MyStreet Season 7 "Faded Memories" confirmed for November 30, 2026 — an Aphmau catalyst that can be noted for November show-table timing.
+
+**Make this next:** Alan Becker six-character sticker sheet — The Second Coming, King Orange, Yellow, Green, Blue, Red — die-cut, print-ready, in hand this week. The Popularity Poll results give the exact character rank order; the Creeper Clan reaction wave is sustaining into week 3; and the entire 33.9M-subscriber fan base has zero mass-retail merch to buy. Parallel to that: any JJ & Mikey custom sticker or accessory pack should stay on the show table as the highest-turn impulse add-on through Holiday 2026 — the Juniper window closing is a demand signal, not competition, and Bonkers doesn't arrive until Spring 2027.
+
+---
+
 ## Week of Sep 7, 2026
 
 **Top merch opportunity:** Alan Becker (AvM) Episode 40 "Creeper Clan" (released Aug 29) is now into its second full week — the reaction wave is confirmed and building on YouTube and TikTok, with multiple reaction channels active and fan enthusiasm at peak. The 3rd Annual Popularity Poll closed September 4 and results are now live, confirming the exact character-demand ranking to design toward. With 33.9M subscribers, zero mass-retail toy presence, and a once-per-year episode drop moment still unfolding, the six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) is the single highest-urgency print this week — artwork that isn't ready now misses the wave entirely.
