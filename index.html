@@ -39,6 +39,21 @@
   .headline{background:linear-gradient(90deg,#16224a,#141d38); border:1px solid var(--line);
     border-left:4px solid var(--accent); border-radius:14px; padding:16px 18px; margin-bottom:24px;
     font-size:15px; line-height:1.5}
+  .headline .hl-top{font-size:17px; font-weight:600; margin-bottom:12px}
+  .tiers{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:10px; margin:6px 0 14px}
+  .tier{background:#0f1830; border:1px solid var(--line); border-radius:10px; padding:10px 12px}
+  .tier .tl{font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--mut); margin-bottom:6px}
+  .tier .tn{font-size:14px; font-weight:600; line-height:1.45}
+  .tier .tn span{white-space:nowrap}
+  .tier .tn .arr{color:var(--mut); font-weight:400; margin:0 4px}
+  .tier.p{border-left:3px solid #ff6b3d} .tier.w{border-left:3px solid #4cd97b}
+  .tier.k{border-left:3px solid #f2c14e} .tier.d{border-left:3px solid #e35d6a}
+  .notes{margin:0; padding:0; list-style:none}
+  .notes li{padding:7px 0; border-top:1px solid var(--line); font-size:14px}
+  .notes li b{color:#fff} .notes li .take{color:var(--accent); font-weight:600}
+  .notes li .why{color:#cfd6ea}
+  .bg{margin-top:12px; font-size:13px; color:var(--mut)}
+  details.more{margin-top:8px} details.more summary{cursor:pointer; color:var(--mut); font-size:13px}
 
   .section-title{display:flex; align-items:center; gap:10px; margin:30px 0 14px; font-size:13px;
     letter-spacing:2px; text-transform:uppercase; color:var(--mut)}
@@ -227,7 +242,25 @@
 
   document.getElementById("updated").textContent = D.updated;
   document.getElementById("wkcount").textContent = D.weeks.length + (D.weeks.length===1?" week tracked":" weeks tracked");
-  document.getElementById("headline").innerHTML = "<b>📡 Read:</b> " + (D.headline||"");
+  (function renderSummary(){
+    const S = D.summary, el = document.getElementById("headline");
+    const esc = x => String(x==null?"":x).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+    if (!S) { el.innerHTML = "<b>📡 Read:</b> " + esc(D.headline||""); return; }
+    const tier = (cls, label, names) => (names && names.length)
+      ? `<div class="tier ${cls}"><div class="tl">${label}</div><div class="tn">${names.map(esc).map(n=>`<span>${n}</span>`).join(' <span class="arr">→</span> ')}</div></div>` : "";
+    const notes = (S.notes||[]).map(n =>
+      `<li><b>${esc(n.name)}</b> — <span class="take">${esc(n.take)}</span><br><span class="why">${esc(n.why)}</span></li>`).join("");
+    el.innerHTML =
+      `<div class="hl-top">📡 ${esc(D.headline||"")}</div>
+       <div class="tiers">
+         ${tier("p","🔥 Priority",S.priority)}${tier("w","🟢 Worth having",S.worth)}
+         ${tier("k","🟡 Keep, but don't chase",S.keep)}${tier("d","🔴 Deprioritize",S.deprioritize)}
+       </div>
+       <details class="more" open><summary>What it's really saying, in plain English</summary>
+         <ul class="notes">${notes}</ul>
+         ${S.background ? `<div class="bg">Background (not merch): ${esc(S.background)}</div>` : ""}
+       </details>`;
+  })();
 
   // ---- Hot Now (top by latest buzz) ----
   const hot = D.entities.filter(e=>!e.ip).sort((a,b)=>latest(b)-latest(a)).slice(0,8);

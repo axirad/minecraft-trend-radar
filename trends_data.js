@@ -22,6 +22,24 @@
               and from movers. Red Lava Toys cannot make merch of Mojang IP;
               we track it only so we can talk to customers about it.
      link     OPTIONAL exact URL (e.g. the creator's YouTube channel).
+
+   HEADLINE + SUMMARY (plain English -- this is what Thad actually reads):
+     headline  ONE short sentence, plain English, no scores. The single thing to
+               do this week. e.g. "JJ & Mikey is the biggest open window right now."
+     summary   { priority[], worth[], keep[], deprioritize[], notes[], background }
+       priority     (fire) make these first (names, best first)
+       worth        (green) worth having on the table
+       keep         (yellow) keep, but don't chase
+       deprioritize (red) don't put effort here right now
+       notes        one per merch-eligible name, ordered like the tiers:
+                    { name, take, why }
+                    take = 2-5 words ("BIG opportunity", "popular, but narrowing")
+                    why  = 1-3 plain sentences: what happened + what it means
+                           for Red Lava Toys figures. NO "interest 100", NO
+                           "buzz 9", NO "day 20", NO jargon like "open custom
+                           slot" -- say "little toy competition" instead.
+       background   1-2 sentences on Mojang/official items -- context only,
+                    never framed as a recommendation.
    ============================================================================= */
 
 window.TREND_DATA = {
@@ -110,5 +128,37 @@ window.TREND_DATA = {
     new:  []
   },
 
-  headline: "SEP 18 — JJ & MIKEY MERCH WINDOW OPEN: Juniper closed Sep 15 — full-cast demand confirmed; wide-open custom slot through Holiday 2026 → Spring 2027 (Bonkers retail gap). ALAN BECKER Ep 40 'Creeper Clan' day 20 — reaction wave sustaining on YouTube + TikTok (Creeper Clan playlist 2.6M followers); SC #1 + Red #2 in Popularity Poll; six-character sticker sheet must be IN HAND NOW — largest open creator-Minecraft merch slot. SSUNDEE: SkyFactory S7 Ep 2 live (S7 day 5), trending US/UK/CA/AU; 24th+ consecutive week at interest 100; zero official toy line = strongest open US-creator custom slot. CASEOH: Interest 100 — Winter Drop collection now live on caseohgames.com (ornaments + keychains signals Holiday 2026 wave). CHIP & MILO: Chip Second PRE-ORDER for October open ($29.99) — confirmed repeat demand cycle; interest 100; no big-box deal = #1 underserved IP by watch-time. OMZ: Interest 100, 54M monthly views; Amazon bundles active, core SKUs sold out. NICO & CASH: Youtooz (Cash, Nico, Meebo) all sold out; interest 100. PRESTONPLAYZ: Bonkers line live at Target + Amazon; interest 95 and rising. APHMAU: Bonkers retail line on shelf; MyStreet S7 'Faded Memories' Nov 30, 2026. MrBeast Gaming: Interest 11, buzz 4 — steepest sustained decline on tracker. Unspeakable: Interest 4, slow drift to floor. (Mojang context: Dungeons II Sep 29 = 11 days — interest 100, pre-order expires Sep 28. Sulfur cube: interest 98, buzz 10 — peak pre-launch fever; single TikTok at 756.7K likes. Netflix Minecraft Series: interest 1, floor. A Minecraft Movie Squared: Moab production, interest 3.)"
+  headline: "JJ & Mikey is the biggest open window right now, with Chip & Milo, SSundee and Alan Becker right behind.",
+
+  summary: {
+    priority:     ["JJ & Mikey", "Chip & Milo", "SSundee", "Alan Becker"],
+    worth:        ["CaseOh", "Nico & Cash", "OMZ"],
+    keep:         ["PrestonPlayz", "Aphmau"],
+    deprioritize: ["MrBeast Gaming", "Unspeakable"],
+    notes: [
+      { name: "JJ & Mikey", take: "BIG opportunity",
+        why: "Their official Juniper merch sale ended Sept. 15, and there is a gap before the next big official merchandise push. Demand is strong, and Holiday 2026 through Spring 2027 looks like a particularly good window for your figures." },
+      { name: "Alan Becker / Animation vs. Minecraft", take: "BIG emerging opportunity",
+        why: "Episode 40, 'Creeper Clan,' is still generating attention. Characters like Second Coming and Red are especially popular and there isn't much competing physical merchandise. Worth testing characters now." },
+      { name: "SSundee", take: "VERY attractive opportunity",
+        why: "SkyFactory Season 7 is creating fresh attention, and SSundee still has little or no official toy presence. Strong audience plus little toy competition." },
+      { name: "CaseOh", take: "Good holiday opportunity",
+        why: "Interest remains high and his official store is adding winter merchandise like ornaments and keychains. His audience is willing to buy physical products, especially around Christmas." },
+      { name: "Chip & Milo", take: "Strongest proven opportunity",
+        why: "Another preorder cycle is open, which means people bought enough the first time to justify another run. Very popular but still underserved by major retailers." },
+      { name: "OMZ", take: "Strong demand, more competition",
+        why: "High views and merchandise already selling on Amazon. Sold-out items show demand, but you aren't as alone in the market." },
+      { name: "Nico & Cash", take: "Strong demand confirmed",
+        why: "Their Youtooz figures selling out is evidence that fans will buy physical collectibles. Encouraging for your figures." },
+      { name: "PrestonPlayz", take: "Popular, but narrowing",
+        why: "He already has Bonkers toys at Target and Amazon. Good demand, but now you're competing against an official mass-market product." },
+      { name: "Aphmau", take: "Still strong, heavily merchandised",
+        why: "She has retail toys already and a new MyStreet season coming November 30. That could boost interest, but the market isn't underserved." },
+      { name: "MrBeast Gaming", take: "Falling sharply",
+        why: "Don't put much effort into new MrBeast Gaming figures right now." },
+      { name: "Unspeakable", take: "Very weak right now",
+        why: "Audience interest is near the bottom of the tracker, so deprioritize him." }
+    ],
+    background: "Minecraft Dungeons II and the Sulfur cube are gaining interest. The Netflix Minecraft series and A Minecraft Movie Squared aren't generating much measurable excitement yet. These are background signals only, not something Red Lava Toys can make."
+  }
 };
