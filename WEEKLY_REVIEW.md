@@ -2,6 +2,31 @@
 
 ---
 
+## Week of Sep 21, 2026
+
+**🔥 PRIORITY:** JJ & Mikey → Chip & Milo → SSundee → Alan Becker (AvM)
+**🟢 WORTH HAVING:** CaseOh → Nico & Cash → OMZ
+**🟡 KEEP, BUT DON'T CHASE:** PrestonPlayz → Aphmau
+**🔴 DEPRIORITIZE:** MrBeast Gaming → Unspeakable
+
+- **JJ & Mikey** — BIG opportunity. The Juniper drop closed September 15 with a fully sold-out cast — JJ Rabbit, Mikey Turtle, Banana Kid, and Carrie Cat all sold through. That demand is real and just confirmed. Bonkers Toys doesn't land until Spring, so your custom figures have a clear runway through all of Holiday 2026 with no official competition.
+- **Chip & Milo** — Strongest open IP. The Chip plush sold through its first run fast enough that a second preorder just opened for October. With SpongeBob-scale watch numbers and no big-box retail deal in sight, this is still the most underserved IP on the board.
+- **SSundee** — VERY attractive opportunity. SkyFactory Season 7 is into its second week and still trending in the US, UK, Canada, and Australia with new episodes dropping weekly. SSundee still has no official toy line — wide-open slot with fresh series momentum.
+- **Alan Becker (AvM)** — Sustained momentum. Episode 40 "Creeper Clan" is four weeks old and the TikTok reaction wave is still going — the Creeper Clan playlist holds 2.6 million TikTok followers. The Second Coming and Red are your top print priorities from the Popularity Poll, and this channel still has no mass-retail toys to compete against.
+- **CaseOh** — Good holiday opportunity. Winter Drop is live on caseohgames.com and a Halloween drop looks likely soon. Core crowd skews teen but strong younger-sibling pull. No official toy line means no direct competition.
+- **Nico & Cash** — Strong demand confirmed. Youtooz figures are sold out across the full lineup for a second consecutive week — fans will clearly pay for physical collectibles.
+- **OMZ** — Strong demand, more competition. Amazon bundles still selling through, roleplay-server format at its all-time peak. Good signal, but competing against their own Amazon storefront.
+- **PrestonPlayz** — Popular, but narrowing. Bonkers Toys are live at Target and Amazon, so you're competing directly against a mass-market official product now.
+- **Aphmau** — Still strong, heavily merchandised. The Bonkers line is 11 weeks on shelf and steady. MyStreet Season 7 premieres in November and may create a short-term window.
+- **MrBeast Gaming** — Falling sharply. The steepest decline on the board all year with no reversal in sight. Not worth the effort right now.
+- **Unspeakable** — Very weak right now. Approaching the bottom of the tracker with nothing driving attention.
+
+**Make this next:** JJ & Mikey custom figure or sticker set — the Juniper sell-out confirmed demand across the full cast, Bonkers Toys doesn't arrive until Spring, and Holiday 2026 is your clear runway with no official competition.
+
+**Background (not merch):** Minecraft Dungeons II launches September 29 — the biggest Mojang release of 2026 will bring the highest Minecraft search spike of the year this week, great for show-table conversations; both Dungeons II and the Sulfur cube are Mojang-owned and not something Red Lava Toys can make merch of.
+
+---
+
 ## Week of Sep 14, 2026
 
 **Top merch opportunity:** Alan Becker (AvM) Episode 40 "Creeper Clan" (released Aug 29) is now in its third full week — the reaction wave is confirmed sustaining on YouTube and TikTok, with Alan Becker's dedicated Creeper Clan playlist holding 2.6M TikTok followers and reaction video titles like "THIS ALAN BECKER VIDEO ACTUALLY TRAUMATIZED ME BRO" still pulling engagement. The 3rd Annual Popularity Poll results are live — The Second Coming #1 (254K votes), Red #2 (176K votes) — giving the exact character-rank order for print priorities. With 33.9M+ subscribers, zero mass-retail toy presence, and the reaction wave still live, the six-character sticker sheet (The Second Coming, King Orange, Yellow, Green, Blue, Red) must be in hand this week. Every day the artwork isn't ready is sales left on the table.
