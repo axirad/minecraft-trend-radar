@@ -2,6 +2,31 @@
 
 ---
 
+## Week of Sep 28, 2026
+
+**🔥 PRIORITY:** JJ & Mikey → SSundee → Alan Becker (AvM) → Chip & Milo
+**🟢 WORTH HAVING:** CaseOh → Nico & Cash → OMZ
+**🟡 KEEP, BUT DON'T CHASE:** PrestonPlayz → Aphmau
+**🔴 DEPRIORITIZE:** MrBeast Gaming → Unspeakable
+
+- **JJ & Mikey** — BIG opportunity. The Juniper drop is fully wound down — everything sold out, JJ Rabbit in clearance. Target search still returns only third-party fan apparel, no official product. Bonkers Toys doesn't arrive until Spring 2027. Your custom figures have the entire Holiday 2026 season with no official competition.
+- **SSundee** — VERY attractive opportunity. SkyFactory Season 7 is three weeks in with new episodes dropping weekly at roughly four per week. Episode 1 has 2.5 million views and TikTok discovery for the series is still active. SSundee still has no official toy line — sustained momentum plus no competition.
+- **Alan Becker (AvM)** — Sustained momentum. "Creeper Clan" is five weeks out and the TikTok reaction wave is still running — the dedicated Creeper Clan playlist holds 2.6 million followers. AvA 14 is confirmed in development. The Popularity Poll results (Second Coming #1, Red #2) give the exact character rank order to design toward. Still no mass-retail toys for a channel this size.
+- **Chip & Milo** — Window now defined. Rainbow Designs was named global master toy partner for Milo at Licensing Expo in May 2026 — soft toys, playsets, and collectibles are planned, with the retail line launching autumn/winter 2027. That gives you roughly a full year before official retail products arrive. The Chip second preorder for October confirms ongoing demand in the meantime.
+- **CaseOh** — Good holiday opportunity. Spooky Time Halloween Drop is now live at caseohgames.com — themed long sleeve and tee. The Arkansaw Slasher hoodie sold out last week with secondary market listings appearing immediately. Q4 Halloween season and no official toy line to compete against.
+- **Nico & Cash** — Strong demand confirmed. Youtooz figures sold out across the full lineup for a third consecutive week. Cash Skeleton Plushie and read-aloud Comic Book active on cashandnico.com.
+- **OMZ** — Strong demand, more competition. Amazon bundles cycling through sold-outs, roleplay format at its all-time peak. Good signal, but competing against their own Amazon storefront.
+- **PrestonPlayz** — Popular, but narrowing. Bonkers on shelf at Target and Amazon — direct competition. Subscriber growth has leveled off.
+- **Aphmau** — Still strong, heavily merchandised. 12 weeks of Bonkers on shelf with no sell-outs. MyStreet S7 production is complete and a November premiere looks likely — could open a short window if product is ready.
+- **MrBeast Gaming** — At floor. No reversal in sight, not worth the effort.
+- **Unspeakable** — At floor. Nothing driving attention.
+
+**Make this next:** JJ & Mikey custom figure for the Holiday 2026 table — the Juniper sell-out confirmed full-cast demand, Bonkers doesn't arrive until Spring, and you have the next three months with no official competition.
+
+**Background (not merch):** Minecraft Dungeons II launched September 29 — biggest Mojang release of 2026 and peak Minecraft search territory this week; the Sulfur cube is riding the same wave. All Mojang-owned, not something Red Lava Toys can make.
+
+---
+
 ## Week of Sep 21, 2026
 
 **🔥 PRIORITY:** JJ & Mikey → Chip & Milo → SSundee → Alan Becker (AvM)
