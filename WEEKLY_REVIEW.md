@@ -2,6 +2,33 @@
 
 ---
 
+## Week of Oct 19, 2026
+
+**🔥 PRIORITY:** JJ & Mikey → Verity → Alan Becker (AvM) → SSundee
+**🟢 WORTH HAVING:** Chip & Milo → Aphmau → CaseOh → OMZ
+**🟡 KEEP, BUT DON'T CHASE:** ItsFunneh → PrestonPlayz
+**🔴 DEPRIORITIZE:** Nico & Cash → MrBeast Gaming → Unspeakable
+
+- **JJ & Mikey** — BIG open holiday window. The Juniper store has fully closed and no official JJ & Mikey toys exist anywhere on shelf. Bonkers Toys doesn't land until Spring 2027, so your custom figures have the entire holiday season — now through Christmas — with no licensed competition.
+- **Verity** — Halloween peak — make something now. Confirmed #7 on Google's 2026 trending Halloween costumes list, and Halloween is less than two weeks away. The yellow smiley-face design is surprisingly accessible for a horror character, which is why it crosses over to younger kids at Halloween. Demand drops sharply on November 1 — the window is open right now and closes with the holiday.
+- **Alan Becker (AvM)** — Large open slot, Episode 41 likely 2027. No new catalyst since Episode 40 — fan community now places Episode 41 in 2027, removing any near-term demand spike. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities. Zero mass-retail toys for 33.7M subscribers — durable opportunity.
+- **SSundee** — VERY attractive opportunity. SkyFactory Season 7 is past six weeks in and still producing episodes. A community controversy surfaced in mid-October and SSundee addressed it directly — the series weathered it and continues running. Still no official toy line.
+- **Chip & Milo** — Window defined through 2027. Rainbow Designs' global toy line doesn't hit retail until autumn/winter 2027. The Chip preorder cycle confirms fans keep buying in repeat cycles. Custom figures are uncontested until then.
+- **Aphmau** — Holiday season building. MyStreet Season 7 "Faded Memories" premieres November 30, right inside the holiday gift window — an additional demand spike is coming. Dragon MeeMeow keeps moving on Amazon and custom work fills the gaps in the Bonkers line.
+- **CaseOh** — Active content and sell-through confirmed. New Minecraft video ranked #1 on YouTube Gaming trending October 14. Multiple Winter Drop SKUs sold out with a restock notice live. No official toy line.
+- **OMZ** — Strong demand, more competition. Amazon bundles still cycling sold-outs and the roleplay-server format is at its all-time peak. Great fundamentals, but their own Amazon storefront is where fans shop first.
+- **ItsFunneh** — Big audience, open toy shelf. 12M subscribers targeting the 5–10 demo with kid-safe Minecraft and Roblox. No mass-retail plush or figure program anywhere — the physical toy shelf is fully open. Good foundation, no urgent signal yet.
+- **PrestonPlayz** — Popular, but narrowing. Bonkers Toys live at Target and Amazon — direct competition on shelf now. Subscriber growth has flatlined.
+- **Nico & Cash** — Past its peak. Youtooz plushes clearing on secondary markets at steep discounts (around $6 versus $29.99 MSRP) — the initial rush has fully passed. Not worth chasing right now.
+- **MrBeast Gaming** — At floor. No reversal in sight, not worth the effort.
+- **Unspeakable** — At floor. Nothing driving attention.
+
+**Make this next:** Verity stickers or a simple print for the show table right now — Halloween is less than two weeks away, it's the #7 trending Halloween costume on Google, and demand disappears on November 1.
+
+**Background (not merch):** Minecraft Dungeons II continues its post-launch fade with a cemented "Mixed" Steam reception and no new TikTok activity; the Sulfur cube is fading on the same curve — both are Mojang IP Red Lava Toys cannot make merch of.
+
+---
+
 ## Week of Oct 12, 2026
 
 **🔥 PRIORITY:** JJ & Mikey → Alan Becker (AvM) → SSundee → Chip & Milo
