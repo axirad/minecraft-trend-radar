@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-10-19",
+  updated: "2026-10-20",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -103,8 +103,8 @@ window.TREND_DATA = {
     { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.7, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97], rising: true,
       about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (~33.7M subs, 9.68B total views, 190M+ monthly views). AVM Shorts Episode 40 'Creeper Clan' (released August 29, 2026) is now nearly eight weeks out — community attention has fully shifted to anticipating Episode 41; fan speculation now places it in 2027, extending the window but removing a near-term catalyst. 3rd Annual Popularity Poll closed September 4: SC #1 (254,160 votes), Red #2 (176K votes) — print priorities confirmed by fan vote. Youtooz 9-character blind box plush run officially ended after June 10, 2026; 9\" plush appearing on eBay secondary market at $129.99, confirming sustained fan demand after the official run closed. Zero mass-retail toy line despite 33.7M+ subs: the largest open merch slot in creator-Minecraft." },
 
-    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 97], rising: true,
-      about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Confirmed #7 on Google's 2026 trending Halloween costumes list (with 'Verity mod outfits' the top related search) — Halloween is less than two weeks away and costume demand is at its absolute peak. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge. Official merch is a Youtooz 'Your Personal Helper Friend' shoulder-rider plush in pre-order; Etsy has 30+ fan-made designs and plushes (~$15 each). Demand will drop sharply after October 31 — the window is open right now and closes with Halloween." },
+    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100], rising: true,
+      about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Confirmed #7 on Google's 2026 trending Halloween costumes list (with 'Verity mod outfits' the top related search) — Halloween is 11 days away and costume demand is at its absolute peak right now. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge. The official Youtooz 'Your Personal Helper Friend' shoulder-rider plush releases October 23 (three days from now), adding fresh attention at peak demand. Etsy has 30+ fan-made designs and plushes (~$15 each). Demand will drop sharply after October 31 — the window is open right now and closes with Halloween." },
 
     // ---- FORMATS / TOPICS (what kind of videos they're glued to) ----
     { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7], interest: [61, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62], rising: false,
@@ -134,7 +134,7 @@ window.TREND_DATA = {
     new:  []
   },
 
-  headline: "Verity is this year's breakout Halloween costume and the window is closing — then it's all JJ & Mikey for the holidays.",
+  headline: "Verity is at its absolute Halloween peak this week — the official Youtooz plush drops October 23 and the window shuts October 31.",
 
   summary: {
     priority:     ["JJ & Mikey", "Verity", "Alan Becker (AvM)", "SSundee"],
@@ -144,8 +144,8 @@ window.TREND_DATA = {
     notes: [
       { name: "JJ & Mikey", take: "BIG open holiday window",
         why: "No licensed JJ & Mikey toys exist anywhere on shelf — the Juniper store has closed and Bonkers Toys doesn't arrive until Spring 2027. That's the full holiday shopping season, from now through Christmas, completely yours with no official competition." },
-      { name: "Verity", take: "Halloween peak — make something now",
-        why: "Confirmed #7 on Google's 2026 trending Halloween costumes list and Halloween is less than two weeks away. The yellow smiley-face design is surprisingly accessible for a horror character, which is why it crosses into younger audiences at Halloween. Demand drops sharply on November 1 — the window is open right now and closes with the holiday." },
+      { name: "Verity", take: "Halloween peak — window closes October 31",
+        why: "Confirmed #7 on Google's 2026 trending Halloween costumes list and Halloween is 11 days away. The official Youtooz shoulder-rider plush releases this Thursday (October 23), which will pull a fresh wave of attention to the character right at the peak. The yellow smiley-face design works across age groups, which is why it plays at Halloween even for younger kids. Demand drops sharply on November 1 — the window is open right now." },
       { name: "Alan Becker (AvM)", take: "Large open slot, Episode 41 likely 2027",
         why: "No new catalyst since Episode 40 — fan community now places Episode 41 in 2027, so no near-term demand spike is coming. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities. With no mass-retail toys for 33.7M subscribers, the opportunity is large and durable." },
       { name: "SSundee", take: "VERY attractive opportunity",
