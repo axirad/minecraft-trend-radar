@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-10-24",
+  updated: "2026-10-25",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -97,7 +97,7 @@ window.TREND_DATA = {
     { name: "JJ & Mikey", type: "Character/Mob", subs: null, buzz: [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10], interest: [96, 97, 98, 98, 98, 98, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
       about: "JJ and Mikey are the lead characters of Maizen's animated Minecraft skits — streaming live on Tubi, The Roku Channel, and Ryan and Friends Plus (pocket.watch franchise deal, May 2026). Juniper worldwide merch window fully closed September 15, 2026 — full cast sold out; the Juniper domain is now offline. No dedicated licensed toy program is on any shelf. Bonkers Toys plush + blind-boxes Spring 2027 and Scholastic books early 2027 confirmed — the Holiday 2026 gap is the wide-open custom-merch window. Confirmed #1 top sellers at Red Lava Toys shows." },
     { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [10, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8, 7, 4], interest: [90, 86, 87, 88, 88, 89, 90, 92, 94, 96, 97, 98, 100, 100, 100, 95, 85, 52], rising: false,
-      about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel hit 11M subscribers on June 8, 2026; Nico at ~4.9M. Official store at cashandnico.com active with in-stock SKUs: Cash Skeleton Plushie and 'Set Sail Comic Book' alongside plushies, shirts, and a skate toy line. Youtooz collab: Cash Plush (9in), Nico Plush (9in), and Meebo Plush all sold out on Youtooz.com — third-party resellers now clearing them at steep discounts (~$6, down from $29.99 MSRP), confirming the initial demand rush has fully passed. No new franchise announcement, no new series; channel upload pace stays high but the IP has been in steady post-peak decline for five consecutive weeks with no catalyst to reverse it." },
+      about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel hit 11M subscribers on June 8, 2026; Nico at ~4.9M. Official store at cashandnico.com active with in-stock SKUs: Cash Skeleton Plushie and 'Set Sail Comic Book' alongside plushies, shirts, and a skate toy line. Youtooz collab: Cash Plush (9in), Nico Plush (9in), and Meebo Plush all sold out on Youtooz.com — third-party resellers now clearing them at steep discounts (~$6, down from $29.99 MSRP), confirming the initial demand rush has fully passed. No new franchise announcement, no new series; channel upload pace stays high but the IP has been in steady post-peak decline for over a month with no catalyst to reverse it." },
     { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], interest: [85, 83, 90, 93, 94, 96, 98, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
       about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs). The Milo and Chip channel generates ~231.93M monthly views — algorithmic reach comparable to established TV franchises; 16B watch minutes in the year since launch. Rainbow Designs appointed global master toy partner for Milo (announced Licensing Expo Las Vegas, May 2026) — soft toys, playsets, and collectible role-play products launching at retail autumn/winter 2027. Milo plush restocked at miloandchip.com ($29.99); Chip Second PRE-ORDER for October still open at miloandchip.com ($29.99), confirming repeat demand cycle. Three seasons streaming: S1 Amazon Prime Video; S2–S3 Roku/Tubi. Custom-merch window fully open through early 2027 — Rainbow Designs products won't arrive at retail until late 2027." },
     { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.7, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97], rising: true,
@@ -134,18 +134,18 @@ window.TREND_DATA = {
     new:  []
   },
 
-  headline: "Verity has one week left before Halloween closes the window — demand is still at full peak, act before October 31.",
+  headline: "Verity is at absolute peak with Halloween imminent — push Verity this week, then pivot straight to JJ & Mikey for the holiday season.",
 
   summary: {
-    priority:     ["JJ & Mikey", "Verity", "Alan Becker (AvM)", "SSundee"],
+    priority:     ["Verity", "JJ & Mikey", "Alan Becker (AvM)", "SSundee"],
     worth:        ["Chip & Milo", "Aphmau", "CaseOh", "OMZ"],
     keep:         ["ItsFunneh", "PrestonPlayz"],
     deprioritize: ["Nico & Cash", "MrBeast Gaming", "Unspeakable"],
     notes: [
+      { name: "Verity", take: "Halloween peak — window closes this week",
+        why: "Confirmed #7 on Google's Frightgeist 2026 trending costumes list. The Youtooz shoulder-rider plush launched October 23, pulling a fresh attention spike right at peak demand. TikTok cosplay guides and DIY tutorials are actively circulating this week. Halloween is this weekend — demand will drop sharply the moment it passes. The yellow smiley-face design is clean and age-spanning." },
       { name: "JJ & Mikey", take: "BIG open holiday window",
         why: "No licensed JJ & Mikey toys exist anywhere on shelf — the Juniper store has closed and Bonkers Toys doesn't arrive until Spring 2027. That's the full holiday shopping season, from now through Christmas, completely yours with no official competition." },
-      { name: "Verity", take: "Halloween peak — window closes October 31",
-        why: "Confirmed #7 on Google's Frightgeist 2026 trending costumes list. The Youtooz shoulder-rider plush launched October 23, pulling a fresh attention spike right at peak demand. Multiple DIY costume guides published this week. The yellow smiley-face design works across age groups. Halloween is one week away — demand drops sharply on November 1." },
       { name: "Alan Becker (AvM)", take: "Large open slot, Episode 41 likely 2027",
         why: "No new catalyst since Episode 40 — fan community now places Episode 41 in 2027, so no near-term demand spike is coming. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities. With no mass-retail toys for 33.7M subscribers, the opportunity is large and durable." },
       { name: "SSundee", take: "VERY attractive opportunity",
@@ -163,12 +163,12 @@ window.TREND_DATA = {
       { name: "PrestonPlayz", take: "Popular, but narrowing",
         why: "Bonkers Toys are live at Target and Amazon — direct competition on shelf now. Subscriber growth has flatlined and engagement has softened." },
       { name: "Nico & Cash", take: "Past its peak",
-        why: "Five consecutive weeks of decline with no catalyst to reverse it. The Youtooz plushes cleared on secondary markets at steep discounts. No new franchise announcement or series. The official store is still active but momentum is gone — not worth chasing right now." },
+        why: "Declining steadily for over a month with no catalyst to reverse it. The Youtooz plushes cleared on secondary markets at steep discounts. No new franchise announcement or series. The official store is still active but momentum is gone — not worth chasing right now." },
       { name: "MrBeast Gaming", take: "Falling sharply",
         why: "Effectively at floor with no recovery signal. Not worth the effort right now." },
       { name: "Unspeakable", take: "At floor",
         why: "Nothing driving attention. Skip for now." }
     ],
-    background: "Minecraft Dungeons II is now four weeks post-launch, settled into a 'Mixed' Steam reception, and interest continues declining with no new TikTok activity. The Sulfur cube (from the June Chaos Cubed update) is fading on the same curve. Both are Mojang-owned IP Red Lava Toys cannot make merch of; the Movie sequel (A Minecraft Movie Squared, July 2027) and Netflix series (still no Season 2 announced) remain background context only."
+    background: "Minecraft Dungeons II is nearly four weeks post-launch, settled into a 'Mixed' Steam reception, and interest continues declining with no new TikTok activity. The Sulfur cube (from the June Chaos Cubed update) is fading on the same curve. Both are Mojang-owned IP Red Lava Toys cannot make merch of; the Movie sequel (A Minecraft Movie Squared, July 2027) and Netflix series (still no Season 2 announced) remain background context only."
   }
 };
