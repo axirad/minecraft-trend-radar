@@ -2,6 +2,33 @@
 
 ---
 
+## Week of Oct 26, 2026
+
+**🔥 PRIORITY:** JJ & Mikey → SSundee → Alan Becker (AvM) → Aphmau
+**🟢 WORTH HAVING:** Chip & Milo → CaseOh → OMZ → ItsFunneh
+**🟡 KEEP, BUT DON'T CHASE:** PrestonPlayz → Yarik Paw
+**🔴 DEPRIORITIZE:** Nico & Cash → Verity → MrBeast Gaming
+
+- **JJ & Mikey** — BIG open holiday window. The Juniper store closed September 15 with a fully sold-out cast and the domain is now offline. Bonkers Toys doesn't land until Spring 2027, so your custom figures have the entire holiday season — now through Christmas — with no official competition.
+- **SSundee** — VERY attractive opportunity, second series incoming. SkyFactory Season 7 is seven weeks in and still producing. TikTok fan clips confirm SSundee and Crainer are launching an All the Mods 10 follow-up series in November, extending the window well into Q1 2027. Still no official toy line anywhere.
+- **Alan Becker (AvM)** — Large open slot, Episode 41 expected Nov-Dec. Fan wikis now place Episode 41 in November–December 2026 — sooner than the "possibly 2027" read from two weeks ago. When it drops, demand spikes immediately. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities; 33.7M subscribers and zero mass-retail toys.
+- **Aphmau** — Holiday season window opening. MyStreet Season 7 "Faded Memories" premieres November 30 — five weeks away and right in the gift-buying window. Dragon MeeMeow keeps moving on Amazon and custom work fills the gaps in the Bonkers line.
+- **Chip & Milo** — Window defined through 2027. Rainbow Designs' global toy line doesn't hit retail until autumn/winter 2027. The Chip preorder cycle confirms repeat demand — custom figures and prints are uncontested until then.
+- **CaseOh** — Active content and sell-through confirmed. Halloween content ran through October 31 and the Winter Drop is selling through with a restock notice live. No official toy line means no shelf competition this holiday season.
+- **OMZ** — Strong demand, more competition. Amazon bundles still cycling sold-outs and the roleplay-server format stays at its all-time peak. Good fundamentals, but their own Amazon storefront is where fans shop first.
+- **ItsFunneh** — Big audience, open toy shelf. 12M subscribers targeting the 5–10 demo with kid-safe Minecraft and Roblox. No mass-retail plush or figure program — the physical toy shelf is still fully open.
+- **PrestonPlayz** — Popular, but narrowing. Bonkers Toys live at Target and Amazon — direct competition on shelf. Subscriber growth flat.
+- **Yarik Paw** — Cooling, window still open. Growth has softened from 80K to 30K subscribers per month. The cinematic Minecraft niche is real and the character roster is well-defined, but no licensing deal has emerged and momentum is fading.
+- **Nico & Cash** — Past its peak. Dropped from a September peak to roughly a third of that in just six weeks — the steepest post-peak decline on the tracker. Youtooz secondary market cleared at steep discounts. Not worth chasing.
+- **Verity** — Window closes this weekend. Halloween is October 31 — demand drops sharply the moment it passes. If you made product this week, push it hard at the show table. The Youtooz shoulder-rider plush keeps selling for collectors through November 20, but the mass Halloween impulse closes with the holiday. Pivot away now.
+- **MrBeast Gaming** — At floor. No reversal in sight.
+
+**Make this next:** JJ & Mikey custom figures for the holiday show table — the Juniper sell-out confirmed full-cast demand, Bonkers doesn't arrive until Spring 2027, and you have the full holiday season with no official competition. Keep Alan Becker sticker sets stocked for when Episode 41 drops — now expected November–December.
+
+**Background (not merch):** Minecraft Dungeons II is nearly a month post-launch, settled into a "Mixed" Steam reception with no TikTok breakthrough — interest continues declining; both it and the Sulfur cube are Mojang IP Red Lava Toys cannot make merch of. The Minecraft Movie sequel (July 2027) and Netflix series (no Season 2 yet) stay background context.
+
+---
+
 ## Week of Oct 19, 2026
 
 **🔥 PRIORITY:** JJ & Mikey → Verity → Alan Becker (AvM) → SSundee
