@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-10-26",
+  updated: "2026-10-27",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19", "Oct 26"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -99,12 +99,12 @@ window.TREND_DATA = {
     { name: "Nico & Cash", type: "Character/Mob", subs: null, buzz: [10, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8, 7, 4, 3], interest: [90, 86, 87, 88, 88, 89, 90, 92, 94, 96, 97, 98, 100, 100, 100, 95, 85, 52, 30], rising: false,
       about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel hit 11M subscribers on June 8, 2026; Nico at ~4.9M. Official store at cashandnico.com active with in-stock SKUs. Youtooz collab plushes (Cash, Nico, Meebo) have cleared the secondary market at steep discounts (~$6, down from $29.99 MSRP), confirming the initial demand rush has fully passed. Interest dropped from its September peak to roughly 30 in six weeks — the steepest post-peak decline on the tracker. No new franchise announcement, no new series; not worth chasing." },
     { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], interest: [85, 83, 90, 93, 94, 96, 98, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
-      about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs). The Milo and Chip channel generates ~231.93M monthly views — algorithmic reach comparable to established TV franchises; 16B watch minutes in the year since launch. Rainbow Designs appointed global master toy partner for Milo (announced Licensing Expo Las Vegas, May 2026) — soft toys, playsets, and collectible role-play products launching at retail autumn/winter 2027. Milo plush restocked at miloandchip.com ($29.99); Chip Second PRE-ORDER for October still open at miloandchip.com ($29.99), confirming repeat demand cycle. Three seasons streaming: S1 Amazon Prime Video; S2–S3 Roku/Tubi. Custom-merch window fully open through early 2027 — Rainbow Designs products won't arrive at retail until late 2027." },
+      about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs). The Milo and Chip channel generates ~231.93M monthly views — algorithmic reach comparable to established TV franchises; 16B watch minutes in the year since launch. Rainbow Designs appointed global master toy partner for Milo (announced Licensing Expo Las Vegas, May 2026) — soft toys, playsets, and collectible role-play products launching at retail autumn/winter 2027. Milo plush restocked at miloandchip.com ($29.99); Chip Second PRE-ORDER for October still open at miloandchip.com ($29.99), confirming repeat demand cycle. Three seasons streaming: S1 Amazon Prime Video; S2–S3 Roku/Tubi. Custom-merch window fully open through early 2027 — Rainbow Designs products won't arrive at retail until late 2027. Note: an unofficial Moonsky-brand 9.8\" Milo & Chip plush has appeared on Walmart — unlicensed competition, worth monitoring." },
     { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.7, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 9], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97, 97], rising: true,
       about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (~33.7M subs, 9.68B total views, 190M+ monthly views). Fan wikis now place AVM Shorts Episode 41 in November–December 2026 — sooner than the 'possibly 2027' read from earlier this month. 3rd Annual Popularity Poll closed September 4: SC #1 (254,160 votes), Red #2 (176K votes) — print priorities confirmed by fan vote. Youtooz 9-character blind box plush run officially ended after June 10, 2026; 9\" plush appearing on eBay secondary market at $129.99, confirming sustained fan demand after the official run closed. Zero mass-retail toy line despite 33.7M+ subs: the largest open merch slot in creator-Minecraft." },
 
-    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10, 9], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100, 95], rising: false,
-      about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Confirmed #7 on Google's 2026 Frightgeist trending Halloween costumes list — demand peaked Halloween week (Oct 26–31). The official Youtooz 'Your Personal Helper Friend' shoulder-rider plush (three swappable heads, $34.99, available until November 20, ships March 2027) launched October 23 and will continue selling for collectors, but the mass Halloween impulse closes with the holiday. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge." },
+    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10, 10], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100, 100], rising: false,
+      about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Confirmed #7 on Google's 2026 Frightgeist trending Halloween costumes list — at absolute Halloween costume demand peak right now (Oct 27); Halloween is this Friday Oct 31. DIY costume guides are actively indexed everywhere this week. The official Youtooz 'Your Personal Helper Friend' shoulder-rider plush (three swappable heads, $34.99, available until November 20, ships March 2027) launched October 23 and will continue selling for collectors, but the mass Halloween impulse closes with the holiday. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge." },
 
     // ---- FORMATS / TOPICS (what kind of videos they're glued to) ----
     { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7], interest: [61, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62], rising: false,
@@ -134,7 +134,7 @@ window.TREND_DATA = {
     new:  []
   },
 
-  headline: "Halloween closes the Verity window this weekend — pivot straight to JJ & Mikey and SSundee for the full holiday run.",
+  headline: "Verity is at absolute Halloween peak right now — push hard through Friday, then pivot to JJ & Mikey and SSundee for the full holiday run.",
 
   summary: {
     priority:     ["JJ & Mikey", "SSundee", "Alan Becker (AvM)", "Aphmau"],
@@ -164,8 +164,8 @@ window.TREND_DATA = {
         why: "Growth has softened from 80K to 30K subscribers per month. The cinematic Minecraft niche is real and the character roster is well-defined, but no licensing deal has emerged and momentum is fading. Watch for any franchise announcement, but don't chase right now." },
       { name: "Nico & Cash", take: "Past its peak",
         why: "Dropped from a September peak to roughly a third of that in just six weeks — the steepest post-peak decline on the tracker. Youtooz plushes cleared on secondary markets at steep discounts. No new franchise announcement or series. Skip." },
-      { name: "Verity", take: "Window closes this weekend",
-        why: "Halloween is October 31 — demand drops sharply the moment it passes. If you made product this week, push it hard at the show table. The Youtooz shoulder-rider plush will keep selling for collectors through November 20, but the mass Halloween impulse closes with the holiday. Pivot away." },
+      { name: "Verity", take: "At peak — window closes this Friday",
+        why: "Halloween is this Friday (October 31) and you're right at absolute peak Verity demand — DIY costume guides are everywhere and search is maxed out. Push any product you have hard through Friday. After that the mass Halloween impulse closes; the Youtooz shoulder-rider plush keeps selling for collectors through November 20, but the kid wave ends with the holiday. Pivot away after this week." },
       { name: "MrBeast Gaming", take: "Falling sharply",
         why: "Effectively at floor with no recovery signal. Not worth the effort right now." }
     ],
