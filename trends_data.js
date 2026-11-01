@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-10-31",
+  updated: "2026-11-01",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19", "Oct 26"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -103,8 +103,8 @@ window.TREND_DATA = {
     { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.7, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 9], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97, 97], rising: true,
       about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (~33.7M subs, 9.68B total views, 190M+ monthly views). Fan wikis now place AVM Shorts Episode 41 in November–December 2026 — sooner than the 'possibly 2027' read from earlier this month. 3rd Annual Popularity Poll closed September 4: SC #1 (254,160 votes), Red #2 (176K votes) — print priorities confirmed by fan vote. Youtooz 9-character blind box plush run officially ended after June 10, 2026; 9\" plush appearing on eBay secondary market at $129.99, confirming sustained fan demand after the official run closed. Zero mass-retail toy line despite 33.7M+ subs: the largest open merch slot in creator-Minecraft." },
 
-    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10, 10], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100, 100], rising: false,
-      about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Confirmed #7 on Google's 2026 Frightgeist trending Halloween costumes list (some sources place it at #4) — at absolute Halloween demand peak today, Saturday Oct 31. Anne Hathaway referenced the Verity meme in promotional content for her new film 'VERITY' — cross-cultural validation that added a demand spike last week. DIY costume guides remain actively indexed. The official Youtooz 'Your Personal Helper Friend' shoulder-rider plush (three swappable heads, $34.99, available until November 20, ships March 2027) launched October 23 and will continue selling for collectors, but the mass Halloween impulse closes with the holiday tonight. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge." },
+    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10, 3], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100, 35], rising: false,
+      about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Was confirmed #7 on Google's 2026 Frightgeist trending Halloween costumes list. Halloween has now ended (November 1) — the mass kid demand wave is over. Anne Hathaway referenced the Verity meme in promotional content for her 'VERITY' film, adding a demand spike in October. The official Youtooz 'Your Personal Helper Friend' shoulder-rider plush (three swappable heads, $34.99, available until November 20, ships March 2027) continues selling for collectors, but the Halloween impulse-buy window is closed. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge." },
 
     // ---- FORMATS / TOPICS (what kind of videos they're glued to) ----
     { name: "'Minecraft BUT…'", type: "Format", subs: null, buzz: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7], interest: [61, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62], rising: false,
@@ -134,7 +134,7 @@ window.TREND_DATA = {
     new:  []
   },
 
-  headline: "Verity's window closes tonight — pivot to JJ & Mikey and SSundee, which have the whole holiday season ahead with no official competition.",
+  headline: "Verity's Halloween window just closed — JJ & Mikey and SSundee have the full holiday season ahead with no official competition.",
 
   summary: {
     priority:     ["JJ & Mikey", "SSundee", "Alan Becker (AvM)", "Aphmau"],
@@ -144,12 +144,12 @@ window.TREND_DATA = {
     notes: [
       { name: "JJ & Mikey", take: "BIG open holiday window",
         why: "No licensed JJ & Mikey toys exist anywhere on shelf — the Juniper store closed September 15 with everything sold out and the domain is now offline. Bonkers Toys doesn't arrive until Spring 2027, so your custom figures have the entire holiday shopping season, now through Christmas, with no official competition." },
-      { name: "SSundee", take: "VERY attractive opportunity, second series launching now",
-        why: "SkyFactory Season 7 is eight weeks in and still producing. TikTok fan clips confirm SSundee and Crainer are launching an All the Mods 10 follow-up series in November — now literally days away — extending the SSundee content window well into Q1 2027. Still no official toy line anywhere means your show-table product is completely uncontested." },
-      { name: "Alan Becker (AvM)", take: "Large open slot, Episode 41 coming Nov-Dec",
-        why: "Fan wikis now place Episode 41 in November–December 2026 — sooner than the 'possibly 2027' read from two weeks ago. When it drops, demand spikes immediately. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities, and 33.7M subscribers still have zero mass-retail toys to buy." },
-      { name: "Aphmau", take: "Holiday season window opening any day",
-        why: "MyStreet Season 7 'Faded Memories' is expected in November 2026 — now just days away — right inside the gift-buying window. When it drops, expect an immediate demand spike. Dragon MeeMeow keeps moving on Amazon, and custom work fills whatever the Bonkers line doesn't cover." },
+      { name: "SSundee", take: "VERY attractive opportunity, second series launching this month",
+        why: "SkyFactory Season 7 is still actively publishing new episodes in late October. Fan chatter points to an All the Mods 10 follow-up series launching in November, which would extend the SSundee content window well into Q1 2027. Still no official toy line anywhere means your show-table product is completely uncontested." },
+      { name: "Alan Becker (AvM)", take: "Large open slot, Episode 41 dropping any time now",
+        why: "Fan wikis place Episode 41 in November–December 2026 — we're now in that window. When it drops, demand spikes immediately. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities, and 33.7M subscribers still have zero mass-retail toys to buy." },
+      { name: "Aphmau", take: "Holiday season window opening this month",
+        why: "MyStreet Season 7 'Faded Memories' is expected in November 2026, and we're now in that window. When it drops, expect an immediate demand spike right in the middle of holiday shopping. Dragon MeeMeow keeps moving on Amazon, and custom work fills whatever the Bonkers line doesn't cover." },
       { name: "Chip & Milo", take: "Wide open window, longer than we thought",
         why: "The Rainbow Designs master toy deal announced at Licensing Expo 2026 turns out to be for a different IP (DeAPlaneta's preschool MILO brand) — not EYstreem's Milo and Chip. No mass-retail toy program for this IP has been confirmed, meaning the custom toy shelf is wide open with no official competition on the horizon. Spawnpoint Media's own plush sells out in two weeks, confirming strong demand. The October preorder cycle has wrapped, so fans looking for Chip right now have nowhere official to turn." },
       { name: "CaseOh", take: "Active content and sell-through confirmed",
@@ -164,8 +164,8 @@ window.TREND_DATA = {
         why: "Growth has softened from 80K to 30K subscribers per month. The cinematic Minecraft niche is real and the character roster is well-defined, but no licensing deal has emerged and momentum is fading. Watch for any franchise announcement, but don't chase right now." },
       { name: "Nico & Cash", take: "Past its peak and still falling",
         why: "Has fallen sharply from its September peak with no catalyst in sight — now at roughly a fifth of that peak and still sliding. Youtooz plushes cleared on secondary markets at steep discounts. Nothing new from the channel. Skip entirely." },
-      { name: "Verity", take: "Window closes tonight — push now",
-        why: "Halloween is TODAY (October 31) — push any Verity product hard right now. By tomorrow, the mass Halloween impulse is over. The Youtooz shoulder-rider plush keeps selling for collectors through November 20, but the kid demand wave ends with the holiday tonight. Pivot away starting tomorrow." },
+      { name: "Verity", take: "Window just closed — move on",
+        why: "Halloween ended last night, so the mass kid demand wave is gone. The Youtooz shoulder-rider plush continues selling through November 20 for collectors, but the kid impulse-buy window is closed. Pivot to holiday priorities immediately." },
       { name: "MrBeast Gaming", take: "Falling sharply",
         why: "Effectively at floor with no recovery signal. Not worth the effort right now." }
     ],
