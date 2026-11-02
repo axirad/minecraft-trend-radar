@@ -2,6 +2,33 @@
 
 ---
 
+## Week of Nov 2, 2026
+
+**🔥 PRIORITY:** JJ & Mikey → SSundee → Alan Becker (AvM) → Aphmau
+**🟢 WORTH HAVING:** Chip & Milo → CaseOh → OMZ → ItsFunneh
+**🟡 KEEP, BUT DON'T CHASE:** PrestonPlayz → Yarik Paw
+**🔴 DEPRIORITIZE:** Nico & Cash → Verity → MrBeast Gaming
+
+- **JJ & Mikey** — BIG open holiday window. No licensed JJ & Mikey toys anywhere on shelf until Spring 2027 — the Bonkers/Scholastic lineup doesn't land until then. Custom figures have the entire holiday shopping season with zero official competition.
+- **SSundee** — Second series now live. The All the Mods 10: To the Sky series with Crainer confirmed launching alongside SkyFactory Season 7, which is still publishing. The AllTheMods team publicly acknowledged SSundee's content, confirming active uploads. Two overlapping content windows running into Q1 2027 and still no official toy line anywhere.
+- **Alan Becker (AvM)** — Episode 41 expected any day. Fan wikis place it November–December 2026 — we're right in that window. When it drops, demand spikes immediately. Second Coming and Red are still your print priorities, and 33.7M subscribers have nowhere to buy a toy.
+- **Aphmau** — Season 7 confirmed November 30. MyStreet: Faded Memories has a Plex premiere date four weeks out, right in the middle of holiday shopping. Custom work fills whatever the Bonkers line doesn't cover.
+- **Chip & Milo** — Wide open, confirmed. No mass-retail toy deal confirmed — the earlier Rainbow Designs story was a different IP. Spawnpoint's own DTC sells out quickly but leaves most of the shelf empty.
+- **CaseOh** — Winter Drop live and selling through. Post-Halloween content shift underway with no official toy line.
+- **OMZ** — Amazon bundles still cycling sold-outs. Roleplay format at its all-time peak.
+- **ItsFunneh** — Consistent 12M-sub audience, kid-safe content, KREW graphic novel adding brand awareness. Physical toy shelf still wide open.
+- **PrestonPlayz** — Bonkers Toys live at Target and Amazon. Direct shelf competition now — benchmark, don't lead.
+- **Yarik Paw** — Growth continuing to soften. Great character roster, no franchise deal in sight. Watch but don't chase.
+- **Nico & Cash** — One of the sharpest post-peak drops on the tracker. Skip.
+- **Verity** — Halloween window closed November 1. Move on.
+- **MrBeast Gaming** — At floor. Not worth the effort.
+
+**Make this next:** A JJ & Mikey holiday figure set — no official licensed toy exists anywhere until Spring 2027, you're in prime holiday shopping season, and the Juniper sell-out confirmed full-cast demand. Make them first.
+
+**Background (not merch):** Minecraft Dungeons II is five weeks post-launch with a cemented "Mixed" Steam reception; the Minecraft Movie sequel (A Minecraft Movie Squared, July 2027) is the next Mojang pipeline event — both are context Red Lava Toys cannot make merch of.
+
+---
+
 ## Week of Oct 26, 2026
 
 **🔥 PRIORITY:** JJ & Mikey → SSundee → Alan Becker (AvM) → Aphmau
