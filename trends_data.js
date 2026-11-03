@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-11-02",
+  updated: "2026-11-03",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19", "Oct 26", "Nov 2"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -134,7 +134,7 @@ window.TREND_DATA = {
     new:  []
   },
 
-  headline: "JJ & Mikey lead the holiday shelf with zero competition — and SSundee just launched a second series to extend his window into 2027.",
+  headline: "JJ & Mikey own the holiday shelf with no toys anywhere on it — Aphmau's Season 7 premieres November 30, your next demand spike, right in the gift-buying window.",
 
   summary: {
     priority:     ["JJ & Mikey", "SSundee", "Alan Becker (AvM)", "Aphmau"],
@@ -144,12 +144,12 @@ window.TREND_DATA = {
     notes: [
       { name: "JJ & Mikey", take: "BIG open holiday window",
         why: "No licensed JJ & Mikey toys exist anywhere on shelf — the Juniper store closed September 15 with everything sold out and the domain is now offline. Bonkers Toys doesn't arrive until Spring 2027, so your custom figures have the entire holiday shopping season, now through Christmas, with no official competition." },
-      { name: "SSundee", take: "Second series now confirmed live",
-        why: "The All the Mods 10: To the Sky series with Crainer is now live alongside SkyFactory Season 7, which is still publishing. The AllTheMods team publicly acknowledged SSundee's content, confirming active uploads on the new pack. Two overlapping content windows running into Q1 2027, still no official toy line anywhere — your show-table product is completely uncontested." },
+      { name: "SSundee", take: "Two series running, no toy line",
+        why: "ATM10 Sky with Crainer is live and uploading alongside SkyFactory Season 7, giving SSundee two overlapping content windows running into Q1 2027. Still zero official toy line anywhere — your show-table product is completely uncontested." },
       { name: "Alan Becker (AvM)", take: "Episode 41 dropping any day now",
         why: "Fan wikis place Episode 41 in November–December 2026 — we're right in that window. When it drops, demand spikes immediately. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities, and 33.7M subscribers have zero mass-retail toys to buy." },
-      { name: "Aphmau", take: "Season 7 confirmed November 30",
-        why: "MyStreet: Faded Memories has a confirmed Plex premiere date of November 30 — that's four weeks into holiday shopping. Expect a demand spike right in the gift-buying window. Custom work fills whatever the Bonkers line doesn't cover." },
+      { name: "Aphmau", take: "Season 7 premieres November 30",
+        why: "MyStreet: Faded Memories premieres November 30 — confirmed via TheTVDB, landing right in the peak gift-buying window. Expect a demand spike around that date. Bonkers Toys covers the core line; custom work fills whatever they don't." },
       { name: "Chip & Milo", take: "Wide open window, confirmed",
         why: "The Rainbow Designs master toy deal announced at Licensing Expo 2026 turns out to be for a different IP (DeAPlaneta's preschool MILO brand) — not EYstreem's Milo and Chip. No mass-retail toy program for this IP has been confirmed, meaning the custom toy shelf is wide open with no official competition on the horizon. Spawnpoint Media's own plush sells out fast but covers a small range." },
       { name: "CaseOh", take: "Winter Drop active, post-Halloween shift",
