@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-11-04",
+  updated: "2026-11-05",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19", "Oct 26", "Nov 2"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -58,8 +58,8 @@ window.TREND_DATA = {
       about: "Jelly is a top kid-friendly Minecraft YouTuber (~23M subs) known for short, easy-to-watch videos. Year-long slide is at floor as of August 2026 — no new series, hook content, or franchise announcement; interest at 1, effectively catalog-only with no active trend drivers and no recovery signals." },
     { name: "MrBeast Gaming", type: "Creator", subs: 42, buzz: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 5, 3, 2, 2, 2, 2, 2, 2, 2], interest: [73, 71, 71, 71, 71, 70, 67, 63, 57, 42, 34, 17, 9, 5, 5, 4, 4, 3, 3, 3], rising: false,
       about: "MrBeast Gaming is the gaming channel of mega-creator MrBeast — whose main channel crossed 500M subscribers on June 12, 2026, a YouTube first. The Gaming sub-channel (~42M subs) leans on big-budget Minecraft challenges, prizes, and spectacle. Less about one character and more about event-style videos kids love; interest now at 3 — down from 73 at the Jun 1 start of this tracker — with no recovery signal. Steepest sustained decline on the board." },
-    { name: "SSundee", type: "Creator", subs: 25.5, buzz: [8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10], interest: [64, 66, 72, 76, 79, 83, 93, 98, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
-      about: "SSundee (25.5M subs, ~4 uploads/week, ~47M monthly views) is a top US Minecraft creator known for funny commentary and pop-culture mod drops. SkyFactory Season 7 with Crainer is active and still publishing — the 'A NEW BEGINNING' episode has ~4.5M views alone. The All the Mods 10: To the Sky (ATM10SKY) series launched in late October 2026 as a direct follow-up — the AllTheMods team publicly acknowledged SSundee's ATM10 content, confirming the series is live and actively uploading. Two concurrent content windows now running into Q1 2027. Zero official toy line = strongest open US-creator custom merch slot alongside Alan Becker." },
+    { name: "SSundee", type: "Creator", subs: 25.5, buzz: [8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], interest: [64, 66, 72, 76, 79, 83, 93, 98, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
+      about: "SSundee (25.5M subs, ~4 uploads/week, ~47M monthly views) is a top US Minecraft creator known for funny commentary and pop-culture mod drops. SkyFactory Season 7 with Crainer appears to have wrapped up — the All the Mods 10: To the Sky (ATM10SKY) series launched in late October 2026 as a follow-up and is the current active content window. No evidence of two concurrent series actively uploading as of early November 2026; ATM10 Sky is the live driver going into Q1 2027. Zero official toy line = strongest open US-creator custom merch slot alongside Alan Becker." },
     { name: "LankyBox", type: "Creator", subs: 42, buzz: [7, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], interest: [65, 55, 20, 9, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], rising: false,
       about: "LankyBox is a 42M-sub duo known for 'brainrot'-style Minecraft skits. Confirmed quit — no uploads since ~April 2026 (50+ weeks); fan analysis videos and the Adam McArthur / Justin Kroma partnership-split story are the dominant narrative on TikTok. TikTok Shop (748K+ items sold historically) and retail remain live passively on existing SKUs at effectively zero interest. Channel is finished — do not invest in LankyBox-adjacent product for 2026-2027." },
     { name: "CaseOh", type: "Creator", subs: 10.95, buzz: [7, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], interest: [63, 68, 76, 82, 85, 86, 91, 92, 93, 95, 96, 97, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
@@ -100,8 +100,8 @@ window.TREND_DATA = {
       about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel hit 11M subscribers on June 8, 2026; Nico at ~4.9M. Official store at cashandnico.com active with in-stock SKUs. Youtooz collab plushes (Cash, Nico, Meebo) cleared the secondary market at steep discounts (~$6, down from $29.99 MSRP). Interest dropped from its September peak of 100 to roughly 10 as of early November — one of the sharpest post-peak declines on the tracker. No new franchise announcement, no new series; not worth chasing." },
     { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], interest: [85, 83, 90, 93, 94, 96, 98, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
       about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs). The Milo and Chip channel generates ~231.93M monthly views — algorithmic reach comparable to established TV franchises; 16B watch minutes in the year since launch. Spawnpoint Media's own DTC Milo plush sold out within two weeks of launch; the October Chip Second PRE-ORDER cycle has ended. Important correction: the Rainbow Designs master toy appointment announced at Licensing Expo 2026 was for DeAPlaneta Entertainment's preschool MILO brand — not EYstreem's Milo and Chip. No mass-retail master toy deal for this IP has been confirmed as of November 2026. Three seasons streaming: S1 Amazon Prime Video; S2–S3 Roku/Tubi. The custom-merch window remains wide open with no official retail competition on the horizon. Note: an unofficial Moonsky-brand 9.8\" Milo & Chip plush has appeared on Walmart — unlicensed competition, worth monitoring." },
-    { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 33.7, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 9, 9], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97, 97, 97], rising: true,
-      about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (~33.7M subs, 9.68B total views, 190M+ monthly views). Fan wikis now place AVM Shorts Episode 41 in November–December 2026 — the window is open, and when it drops, demand spikes immediately. 3rd Annual Popularity Poll closed September 4: SC #1 (254,160 votes), Red #2 (176K votes) — print priorities confirmed by fan vote. Youtooz 9-character blind box plush run officially ended after June 10, 2026; 9\" plush appearing on eBay secondary market at $129.99, confirming sustained fan demand after the official run closed. Zero mass-retail toy line despite 33.7M+ subs: the largest open merch slot in creator-Minecraft." },
+    { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 34, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 9, 9], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97, 97, 97], rising: true,
+      about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (~34M subs, 9.68B total views, 190M+ monthly views). Fan wikis now place AVM Shorts Episode 41 in November–December 2026 — the window is open, and when it drops, demand spikes immediately. 3rd Annual Popularity Poll closed September 4: SC #1 (254,160 votes), Red #2 (176K votes) — print priorities confirmed by fan vote. Youtooz 9-character blind box plush run officially ended after June 10, 2026; 9\" plush appearing on eBay secondary market at $129.99, confirming sustained fan demand after the official run closed. Zero mass-retail toy line despite 34M+ subs: the largest open merch slot in creator-Minecraft." },
 
     { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10, 3, 1], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100, 35, 5], rising: false,
       about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Was confirmed #7 on Google's 2026 Frightgeist trending Halloween costumes list. Halloween is now over (November 1) — the mass kid demand wave is fully closed. The official Youtooz 'Your Personal Helper Friend' shoulder-rider plush (three swappable heads, $34.99, available until November 20, ships March 2027) continues selling for collectors only. No recovery signal expected until next year's Halloween cycle. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge." },
@@ -129,12 +129,12 @@ window.TREND_DATA = {
 
   // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["SSundee", "ItsFunneh"],
+    up:   ["ItsFunneh"],
     down: ["Verity", "Nico & Cash"],
     new:  []
   },
 
-  headline: "JJ & Mikey own the holiday shelf with no toys anywhere on it — Aphmau's Season 7 is expected this month, bringing a demand spike right in the peak gift-buying window.",
+  headline: "JJ & Mikey own the holiday shelf with no toys anywhere on it — and Alan Becker's next episode is expected any day, with a demand spike right behind it.",
 
   summary: {
     priority:     ["JJ & Mikey", "SSundee", "Alan Becker (AvM)", "Aphmau"],
@@ -144,8 +144,8 @@ window.TREND_DATA = {
     notes: [
       { name: "JJ & Mikey", take: "BIG open holiday window",
         why: "No licensed JJ & Mikey toys exist anywhere on shelf — the Juniper store closed September 15 with everything sold out and the domain is now offline. Bonkers Toys doesn't arrive until Spring 2027, so your custom figures have the entire holiday shopping season, now through Christmas, with no official competition." },
-      { name: "SSundee", take: "Two series running, no toy line",
-        why: "ATM10 Sky with Crainer is live and uploading alongside SkyFactory Season 7, giving SSundee two overlapping content windows running into Q1 2027. Still zero official toy line anywhere — your show-table product is completely uncontested." },
+      { name: "SSundee", take: "ATM10 Sky live, still no toy line",
+        why: "SkyFactory Season 7 appears to have wrapped up, but the ATM10 Sky series launched in late October and is the current active driver running into Q1 2027. Still zero official toy line anywhere — your show-table product is completely uncontested." },
       { name: "Alan Becker (AvM)", take: "Episode 41 dropping any day now",
         why: "Fan wikis place Episode 41 in November–December 2026 — we're right in that window. When it drops, demand spikes immediately. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities, and 33.7M subscribers have zero mass-retail toys to buy." },
       { name: "Aphmau", take: "Season 7 expected this month",
