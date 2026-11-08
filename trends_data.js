@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-11-07",
+  updated: "2026-11-08",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19", "Oct 26", "Nov 2"],    // week-start labels, oldest -> newest
 
   entities: [
@@ -100,10 +100,10 @@ window.TREND_DATA = {
       about: "Nico and Cash are a paired-character Minecraft animation duo — Cash's channel hit 11M subscribers on June 8, 2026; Nico at ~4.9M. Official store at cashandnico.com active with in-stock SKUs. Youtooz collab plushes (Cash, Nico, Meebo) cleared the secondary market at steep discounts (~$6, down from $29.99 MSRP). Interest dropped from its September peak of 100 to roughly 10 as of early November — one of the sharpest post-peak declines on the tracker. No new franchise announcement, no new series; not worth chasing." },
     { name: "Chip & Milo", type: "Character/Mob", subs: 4.1, buzz: [9, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9], interest: [85, 83, 90, 93, 94, 96, 98, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], rising: true,
       about: "Milo and Chip are an animated-Minecraft duo from EYstreem's Spawnpoint Media (4.1M subs). The Milo and Chip channel generates ~231.93M monthly views — algorithmic reach comparable to established TV franchises; 16B watch minutes in the year since launch. Spawnpoint Media's own DTC Milo plush sold out within two weeks of launch; the October Chip Second PRE-ORDER cycle has ended. Important correction: the Rainbow Designs master toy appointment announced at Licensing Expo 2026 was for DeAPlaneta Entertainment's preschool MILO brand — not EYstreem's Milo and Chip. No mass-retail master toy deal for this IP has been confirmed as of November 2026. Three seasons streaming: S1 Amazon Prime Video; S2–S3 Roku/Tubi. The custom-merch window remains wide open with no official retail competition on the horizon. Note: an unofficial Moonsky-brand 9.8\" Milo & Chip plush has appeared on Walmart — unlicensed competition, worth monitoring." },
-    { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 34, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 9, 10], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97, 97, 99], rising: true,
-      about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (~34M subs, 9.68B total views, 190M+ monthly views). Animator vs. Animation Season 3 Episode 14 confirmed released November 7, 2026 — the channel is live with new content this week. Fan wikis now estimate AVM Shorts Episode 41 for January–February 2027 (pushed back from the Nov–Dec 2026 projection). 3rd Annual Popularity Poll closed September 4: SC #1 (254,160 votes), Red #2 (176K votes) — print priorities confirmed by fan vote. Youtooz 9-character blind box plush run officially ended after June 10, 2026; 9\" plush appearing on eBay secondary market at $129.99, confirming sustained fan demand after the official run closed. Zero mass-retail toy line despite 34M+ subs: the largest open merch slot in creator-Minecraft." },
+    { name: "Alan Becker (AvM)", type: "Character/Mob", subs: 34, buzz: [8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 9, 10], interest: [70, 77, 85, 98, 99, 95, 99, 100, 100, 100, 100, 100, 100, 100, 100, 100, 97, 97, 97, 100], rising: true,
+      about: "Alan Becker's color-coded stick figures — The Second Coming, King Orange, Yellow, Green, Blue, and Red — star in 'Animation vs. Minecraft' (~34M subs, 9.68B total views, 190M+ monthly views). Animator vs. Animation Season 3 Episode 14 'The Dark Age' released November 7, 2026 — the penultimate episode of Season 3, with the season finale (Ep 15) now projected for early 2027. Fan wikis estimate AVM Shorts Episode 41 for January–February 2027. 3rd Annual Popularity Poll closed September 4: SC #1 (254,160 votes), Red #2 (176K votes) — print priorities confirmed by fan vote. Youtooz 9-character blind box plush run officially ended after June 10, 2026; 9\" plush appearing on eBay secondary market at $129.99, confirming sustained fan demand after the official run closed. Zero mass-retail toy line despite 34M+ subs: the largest open merch slot in creator-Minecraft." },
 
-    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10, 3, 1], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100, 35, 5], rising: false,
+    { name: "Verity", type: "Character/Mob", subs: 2.8, buzz: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 10, 3, 1], interest: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 90, 100, 35, 3], rising: false,
       about: "Verity is the signature character from ThatMob's viral Minecraft horror web series — a cheerful yellow orb with wide black eyes and a curved smile. The series premiered May 30, 2026 and the first video passed 22M+ views. Was confirmed #7 on Google's 2026 Frightgeist trending Halloween costumes list. Halloween is now over (November 1) — the mass kid demand wave is fully closed. The official Youtooz 'Your Personal Helper Friend' shoulder-rider plush (three swappable heads, $34.99, available until November 20, ships March 2027) continues selling for collectors only. No recovery signal expected until next year's Halloween cycle. ThatMob has ~2.8M YouTube subscribers; the Bedrock mod exceeded 4.9M downloads on CurseForge." },
 
     // ---- FORMATS / TOPICS (what kind of videos they're glued to) ----
@@ -129,7 +129,7 @@ window.TREND_DATA = {
 
   // Merch-eligible names ONLY (never Mojang IP).
   movers: {
-    up:   ["ItsFunneh"],
+    up:   ["Alan Becker (AvM)", "ItsFunneh"],
     down: ["Verity", "Nico & Cash"],
     new:  []
   },
@@ -146,8 +146,8 @@ window.TREND_DATA = {
         why: "No JJ & Mikey toys exist in any retail store (Target, Walmart, Amazon toys section) — the Juniper DTC store has relaunched with some limited plushes, but Bonkers Toys' mass-retail program doesn't arrive until Spring 2027. Your custom figures have the mass-retail toy aisle all to themselves through Christmas." },
       { name: "SSundee", take: "ATM10 Sky live, still no toy line",
         why: "SkyFactory Season 7 appears to have wrapped up, but the ATM10 Sky series launched in late October and is the current active driver running into Q1 2027. Still zero official toy line anywhere — your show-table product is completely uncontested." },
-      { name: "Alan Becker (AvM)", take: "Fresh content live this week",
-        why: "Animator vs. Animation Episode 14 dropped today (November 7), so the channel is spiking right now — not 'coming soon' but here. Fan wikis push AVM Episode 41 to January–February 2027, so the AvM catalyst is a couple of months out, but the audience is actively engaged this week. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities, and 34M subscribers still have zero mass-retail toys to buy." },
+      { name: "Alan Becker (AvM)", take: "New episode live, season finale coming",
+        why: "Episode 14 'The Dark Age' dropped November 7 — the penultimate episode of Season 3 — so the audience is actively engaged right now. The Season 3 finale is now projected for early 2027, giving a fresh catalyst window in Q1. The Popularity Poll (Second Coming #1, Red #2) still gives your print priorities, and 34M subscribers still have zero mass-retail toys to buy." },
       { name: "Aphmau", take: "Season 7 confirmed Nov 30",
         why: "Plex has now listed MyStreet: Faded Memories Season 7 for November 30, 2026 — right in peak gift-buying season. Expect a demand spike immediately when it airs. Bonkers Toys covers the core line; custom work fills whatever they don't." },
       { name: "Chip & Milo", take: "Wide open window, confirmed",
@@ -169,6 +169,6 @@ window.TREND_DATA = {
       { name: "MrBeast Gaming", take: "At floor",
         why: "Effectively at floor with no recovery signal. Not worth the effort right now." }
     ],
-    background: "Minecraft Dungeons II is five weeks post-launch with a cemented 'Mixed' Steam reception and no TikTok breakthrough — interest is approaching floor. The Minecraft Movie sequel (A Minecraft Movie Squared, July 2027) and the Netflix series (still no Season 2 announced) remain background context only. Both are Mojang IP Red Lava Toys cannot make merch of."
+    background: "Minecraft Dungeons II is six weeks post-launch with a cemented 'Mixed' Steam reception and no TikTok breakthrough — interest is at floor. The Minecraft Movie sequel (A Minecraft Movie Squared, July 2027) and the Netflix series (still no Season 2 announced) remain background context only. Both are Mojang IP Red Lava Toys cannot make merch of."
   }
 };
