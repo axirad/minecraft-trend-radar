@@ -2,6 +2,34 @@
 
 ---
 
+## Week of Nov 16, 2026
+
+**🔥 PRIORITY:** JJ & Mikey → Alan Becker (AvM) → Aphmau → SSundee
+**🟢 WORTH HAVING:** Chip & Milo → CaseOh → OMZ → ItsFunneh
+**🟡 KEEP, BUT DON'T CHASE:** PrestonPlayz → Mikecrack
+**🔴 DEPRIORITIZE:** Yarik Paw → Nico & Cash → Verity → MrBeast Gaming
+
+- **JJ & Mikey** — BIG open holiday window. No licensed JJ & Mikey toys anywhere on the shelf until Spring 2027 — six weeks to Christmas with zero official competition. Custom figures own this season.
+- **Alan Becker (AvM)** — E14 wave still running, season finale any day. 'The Dark Age' dropped nine days ago and the reaction is still going strong. The season finale is Alan Becker's very next episode, with no confirmed date but his own November–December target still on the table. When it drops, 34M subscribers still have nowhere to buy a figure.
+- **Aphmau** — Season 7 confirmed December 5. A November 14 teaser confirmed the date — right in the peak holiday gift-buying window. The Bonkers line covers the main characters; custom figures fill whatever they don't.
+- **SSundee** — ATM10 Sky active, still no toy. The All the Mods 10: To the Sky series is in its second month with consistent uploads. Zero official toy line, nothing to compete against on the holiday shelf.
+- **Chip & Milo** — Wide open window. No mass-retail toy deal confirmed. Spawnpoint's DTC sells out fast but covers a small range — the holiday shelf has nothing on it from an official source.
+- **CaseOh** — Winter Drop active, no shelf competition. Drop is live and moving. No official toy line means nothing competing at Christmas.
+- **OMZ** — Amazon bundles still cycling sold-outs. Roleplay format at all-time peak. Good fundamentals, but their own Amazon storefront is where fans shop first.
+- **ItsFunneh** — Consistent 12M-sub audience targeting the 5–10 demo. KREW graphic novel still building brand awareness. Physical toy shelf completely open.
+- **PrestonPlayz** — Bonkers Toys live at Target and Amazon — direct competition on shelf. Benchmark, not a lead.
+- **Mikecrack** — Stable, enormous with younger Spanish-speaking kids. No mass-retail toy in the Spanish market — worth the show table at Spanish-language events.
+- **Yarik Paw** — Continuing to cool. Growth softening further with no franchise deal or new series in sight. Watchlist only.
+- **Nico & Cash** — At floor. Skip.
+- **Verity** — The Youtooz collector's plush runs through November 20 for a niche audience only. Done until next Halloween.
+- **MrBeast Gaming** — At floor. Not worth the effort.
+
+**Make this next:** Alan Becker figures and stickers should be at the show table now — the E14 reaction wave is running and the season finale could land any day, with 34M subscribers and no official toys. Keep JJ & Mikey holiday stock flowing alongside it.
+
+**Background (not merch):** Mojang's Winter Update (Ice Caves) is estimated for mid-December — good customer-conversation context for holiday gaming gifts. The Minecraft Movie sequel (July 2027) is in production in New Zealand. Both are Mojang IP Red Lava Toys cannot make merch of.
+
+---
+
 ## Week of Nov 9, 2026
 
 **🔥 PRIORITY:** JJ & Mikey → SSundee → Alan Becker (AvM) → Aphmau
