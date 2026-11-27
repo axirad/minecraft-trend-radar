@@ -43,7 +43,7 @@
    ============================================================================= */
 
 window.TREND_DATA = {
-  updated: "2026-11-26",
+  updated: "2026-11-27",
   weeks: ["Jun 1", "Jun 29", "Jul 6", "Jul 13", "Jul 20", "Jul 27", "Aug 3", "Aug 10", "Aug 17", "Aug 24", "Aug 31", "Sep 7", "Sep 14", "Sep 21", "Sep 28", "Oct 5", "Oct 12", "Oct 19", "Oct 26", "Nov 2", "Nov 9", "Nov 16", "Nov 23"],    // week-start labels, oldest -> newest
 
   entities: [
